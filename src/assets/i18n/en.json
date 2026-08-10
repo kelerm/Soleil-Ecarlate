@@ -1,1 +1,12 @@
-{}
+{
+    "menu": {
+        "guilde": "Scarlet Sun",
+        "new_game": "NEW GAME",
+        "continue": "continue",
+        "load": "LOAD"
+    },
+    "transitions": {
+        "loading": "Opening grimoire..."
+    }
+    
+}
