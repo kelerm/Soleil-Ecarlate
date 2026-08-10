@@ -2,13 +2,8 @@
     "menu": {
         "guilde": "Scarlet Sun",
         "new_game": "NEW GAME",
-<<<<<<< Updated upstream
-        "continue": "continue",
-        "load": "LOAD"
-=======
         "continue": "CONTINUE (Soon)",
         "load": "LOAD (Soon)"
->>>>>>> Stashed changes
     },
     "transitions": {
         "loading": "Opening grimoire..."
