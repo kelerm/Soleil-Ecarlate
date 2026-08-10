@@ -1,0 +1,47 @@
+@use 'theme' as *;
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+  .game-title {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 0px $shadow-color;
+  }
+
+  .buttons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+
+    .menu-btn {
+      background: #1a1a1a;
+      border: 2px solid $border-color;
+      color: $text-color;
+      padding: 15px;
+      font-family: inherit;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.2s;
+
+      &:hover:not(:disabled) {
+        background: $text-color;
+        color: $bg-color;
+        border-color: $text-color;
+        transform: scale(1.05);
+      }
+
+      &.disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+      }
+    }
+  }
+}

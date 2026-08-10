@@ -1,0 +1,79 @@
+@use 'theme' as *;
+
+.vn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+
+.screen-wrapper {
+  width: 100%;
+    max-width: 512px; // 128px multiplié 4
+    aspect-ratio: 1 / 1;
+    border: 4px solid #333;
+    background: black;
+    overflow: hidden;
+
+    .pixel-art-scene {
+      width: 100%;
+      height: 100%;
+      
+      // BLOQUE LE LISSAGE DU NAVIGATEUR POUR LE 128x128
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+  }
+
+  .dialogue-box {
+    width: 100%;
+    max-width: 512px;
+    margin-top: 20px;
+    background: $box-bg;
+    border: 2px solid $text-color;
+    padding: 15px;
+
+  .story-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    white-space: pre-wrap; 
+
+    // TODO a voir pour trouver une autre icone, voir la faire
+    &::after {
+      content: ' ✎'; // Icône de plume ?
+      color: #b5945b; // couleur or / parchemin pour adoucir le blanc
+      animation: clignotement 1s infinite ease-in-out;
+    }
+  }
+
+@keyframes clignotement {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+    .choices-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .choice-btn {
+        background: #222;
+        border: 1px solid #555;
+        color: $text-color;
+        padding: 10px;
+        text-align: left;
+        cursor: pointer;
+        font-family: inherit;
+        transition: background 0.2s;
+
+        &:hover {
+          background: #444;
+          border-color: $text-color;
+        }
+      }
+    }
+  }
+}
