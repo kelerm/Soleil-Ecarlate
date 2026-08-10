@@ -1,6 +1,6 @@
 <div *transloco="let t">
 
-<div class="menu-container">
+<div class="menu-container" [class.accessible-mode]="isAccessibleMode">
   <h1 class="game-title">{{ t('menu.guilde') }}</h1>
   
   <div class="buttons-list">
@@ -11,5 +11,6 @@
   <div class="buttons-lang">
     <button class="menu-btn" (click)="setLang('fr')" >FR</button>
     <button class="menu-btn" (click)="setLang('en')" >GB</button>
+    <button class="menu-btn" (click)="toggleAccessibility()">Aa</button>
   </div>
 </div>

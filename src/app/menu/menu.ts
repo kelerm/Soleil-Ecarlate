@@ -2,19 +2,26 @@ import { Component, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { GameService } from '../game/services/game.service';
 import { TranslocoModule, TranslocoService } from '@jsverse/transloco';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-menu',
   standalone: true,
-  imports: [TranslocoModule],
+  imports: [CommonModule, TranslocoModule],
   templateUrl: './menu.html',
   styleUrls: []
 })
 
 export class MenuComponent {
+  isAccessibleMode: boolean = false;
   private router = inject(Router);
   private gameService = inject(GameService); // <-- Injecte le service ici
   private transloco = inject(TranslocoService);
+
+  toggleAccessibility() {
+    this.isAccessibleMode = !this.isAccessibleMode;
+    console.log('Mode accessible activé:', this.isAccessibleMode);
+  }
 
   public commencerPartie(): void {
      // 1. On déclenche la musique et l'écriture grâce au clic utilisateur (Fin du blocage navigateur !)
@@ -31,7 +38,7 @@ export class MenuComponent {
     });
   }
 
-  // Langue actuelle (optionnel, pour le style)
+  // Langue actuelle (optionnel, pour le fun)
   public get activeLang(): string {
     return this.transloco.getActiveLang();
   }

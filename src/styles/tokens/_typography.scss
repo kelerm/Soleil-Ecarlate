@@ -2,4 +2,10 @@ $font-family-retro: 'Courier New', Courier, monospace;
 $font-size-title: 3rem;
 $font-size-body: 1.1rem;
 $line-height-body: 1.5;
-$letter-spacing-retro: 4px;
+$letter-spacing-retro: 0.25rem;
+
+// --- NOUVEAU : Police Accessible ---
+// Le nom doit correspondre à celui importé dans index.html
+$font-family-accessible: 'OpenDyslexic', 'Verdana', sans-serif; 
+$line-height-accessible: 1.8; // Plus aéré pour la dyslexie
+$letter-spacing-accessible: 0.12em; // Léger espacement supplémentaire
