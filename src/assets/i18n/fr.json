@@ -2,10 +2,11 @@
     "menu": {
         "guilde": "Soleil Ecarlate",
         "new_game": "NOUVELLE PARTIE",
+        "continue": "CONTINUER",
         "load": "CHARGER"
     },
     "transitions": {
-        "loading": "Chargement du grimoire..."
+        "loading": "Ouverture du grimoire..."
     }
     
 }
