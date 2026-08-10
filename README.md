@@ -1,4 +1,4 @@
-# MonApp — Angular 20
+# 📜☀️ La compagnie : Soleil ÉCARLATE
 
 Application Angular 20 avec header, page d'accueil et footer.
 
