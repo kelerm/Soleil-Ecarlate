@@ -66,13 +66,7 @@ Les fichiers seront générés dans `dist/mon-app/`.
 ## Fonctionnalités
 
 - ✅ **Angular 20** avec composants standalone
-- ✅ **Header** sticky avec navigation responsive et menu burger mobile
-- ✅ **Page d'accueil** avec section hero animée, features et CTA
-- ✅ **Footer** avec colonnes de liens
 - ✅ **Routing** Angular configuré
-- ✅ **Design sombre** moderne avec palette violet/bleu
-- ✅ **Responsive** mobile-first
-- ✅ **Animations CSS** (orbes, fade-in)
 
 ## Ajouter une nouvelle page
 
