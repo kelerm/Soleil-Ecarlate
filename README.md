@@ -6,22 +6,23 @@ Application Angular 20 pour une App dont vous êtes le héro.
 
 ```
 src/
-├── app/                      <-- les composants, services et logique TypeScript
+├── app/                        <-- les composants, services et logique TypeScript
 │   ├── game/
-│   │   ├── visual-novel/ <-- le "moteur visuel"
+│   │   ├── visual-novel/       <-- le "moteur visuel"
 │   │   ├── audio-player.service.ts
 │   │   ├── game.model.ts
 │   │   ├── game.service.ts
+│   │   ├── index.ts            <-- barrel
 │   │   └── typewriter.service.ts
 │   └── menu/
 │
-├── assets/                   <-- ressources physiques
+├── assets/                     <-- ressources physiques
 │   ├── audio/    (.ogg)
-│   ├── data/                <-- contient les histoires découpées par scènes/act
+│   ├── data/                   <-- contient les histoires découpées par scènes/act
 │   ├── i18n/
 │   └── scenes/   (.gif)
 │
-├── styles/                   <-- DESIGN TOKENS ET SCSS GLOBALISED
+├── styles/                     <-- DESIGN TOKENS ET SCSS GLOBALISED
 │   ├── tokens/
 │   │   ├── _palette.scss
 │   │   └── _typography.scss
@@ -32,7 +33,7 @@ src/
 │
 ├── index.html
 ├── main.ts
-└── styles.scss               <-- point d'entrée global.
+└── styles.scss                 <-- point d'entrée global.
 ```
 
 ## Installation & démarrage
