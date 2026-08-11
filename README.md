@@ -79,8 +79,5 @@ Les fichiers seront générés dans `dist/mon-app/`.
 ng generate component ma-page
 ```
 
-Puis ajouter la route dans `src/app/app.routes.ts` :
+Puis ajouter la route dans `src/app/app.routes.ts`
 
-```typescript
-{    path: 'ma-page', component:MaPageComponent}
-```
