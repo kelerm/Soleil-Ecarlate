@@ -2,12 +2,11 @@ import {Component, computed, inject, ViewEncapsulation} from '@angular/core';
 import {Game} from '../../services/game';
 import {Scene} from '../../models/story';
 import {TranslocoModule} from '@jsverse/transloco';
-import {NgOptimizedImage} from "@angular/common";
 
 @Component({
     selector: 'app-visual-novel',
     standalone: true,
-    imports: [TranslocoModule, NgOptimizedImage],
+    imports: [TranslocoModule],
     templateUrl: './visual-novel.html',
     encapsulation: ViewEncapsulation.None
 })
