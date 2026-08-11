@@ -1,8 +1,6 @@
 import {computed, inject, Injectable, signal} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {Histoire, Scene} from '../models/story';
-import {Typewriter} from './typewriter';
-import {AudioPlayer} from './audio-player';
+import {AudioPlayer, Histoire, Scene, Typewriter} from '../game';
 
 @Injectable({
     providedIn: 'root'
