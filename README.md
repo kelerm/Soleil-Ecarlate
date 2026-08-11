@@ -1,6 +1,6 @@
 # 📜☀️ La compagnie : Soleil ÉCARLATE
 
-Application Angular 20 avec header, page d'accueil et footer.
+Application Angular 20 pour une App dont vous êtes le héro.
 
 ## Structure du projet
 
@@ -8,34 +8,39 @@ Application Angular 20 avec header, page d'accueil et footer.
 src/
 ├── app/                      <-- les composants, services et logique TypeScript
 │   ├── game/
-│   |   ├── components/
-|   |   ├── data
-|   |   └── services
-│   │       ├── audio.service.ts
-│   │       ├── game.service.ts
-│   │       └── typewriter.service.ts
+│   │   ├── components/
+│   │       ├── visual-novel/ <-- le "moteur visuel"
+│   │   ├── models/
+│   │   └── services/
+│   │       ├── audio-player.ts
+│   │       ├── game.ts
+│   │       └── typewriter.ts
 │   └── menu/
 │
 ├── assets/                   <-- ressources physiques
-│   ├── scenes/   (.gif)
-│   └── audio/    (.ogg)
+│   ├── audio/    (.ogg)
+│   ├── data/                <-- contient les histoires découpées par scènes/act
+│   ├── i18n/
+│   └── scenes/   (.gif)
 │
 ├── styles/                   <-- DESIGN TOKENS ET SCSS GLOBALISED
 │   ├── tokens/
 │   │   ├── _palette.scss
 │   │   └── _typography.scss
-│   ├── _theme.scss
+│   ├── _game.scss
 │   ├── _menu.scss
-│   └── _game.scss
+│   ├── _theme.scss
+│   └── _transitions.scss
 │
 ├── index.html
 ├── main.ts
-└── styles.scss               <-- Ton point d'entrée global qui fait : @use 'styles/theme'; etc.
+└── styles.scss               <-- point d'entrée global.
 ```
 
 ## Installation & démarrage
 
 ### Prérequis
+
 - Node.js 20+ (LTS recommandé)
 - npm 10+
 
@@ -77,5 +82,5 @@ ng generate component ma-page
 Puis ajouter la route dans `src/app/app.routes.ts` :
 
 ```typescript
-{ path: 'ma-page', component: MaPageComponent }
+{    path: 'ma-page', component:MaPageComponent}
 ```
