@@ -1,6 +1,6 @@
 import {Component, computed, inject, ViewEncapsulation} from '@angular/core';
-import {Game} from '../../services/game';
-import {Scene} from '../../models/story';
+import {Game} from '../game.service';
+import {Scene} from '../game.model';
 import {TranslocoModule} from '@jsverse/transloco';
 
 @Component({

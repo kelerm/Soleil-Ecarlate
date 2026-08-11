@@ -8,7 +8,7 @@ export const routes: Routes = [
     },
     {
         path: 'jeu',
-        loadComponent: () => import('./game/components/visual-novel/visual-novel').then(m => m.VisualNovelComponent),
+        loadComponent: () => import('./game/visual-novel/visual-novel').then(m => m.VisualNovelComponent),
     },
     {
         path: '**',

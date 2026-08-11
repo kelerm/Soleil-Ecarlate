@@ -8,13 +8,11 @@ Application Angular 20 pour une App dont vous êtes le héro.
 src/
 ├── app/                      <-- les composants, services et logique TypeScript
 │   ├── game/
-│   │   ├── components/
-│   │       ├── visual-novel/ <-- le "moteur visuel"
-│   │   ├── models/
-│   │   └── services/
-│   │       ├── audio-player.ts
-│   │       ├── game.ts
-│   │       └── typewriter.ts
+│   │   ├── visual-novel/ <-- le "moteur visuel"
+│   │   ├── audio-player.service.ts
+│   │   ├── game.model.ts
+│   │   ├── game.service.ts
+│   │   └── typewriter.service.ts
 │   └── menu/
 │
 ├── assets/                   <-- ressources physiques

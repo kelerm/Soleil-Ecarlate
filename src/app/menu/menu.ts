@@ -1,6 +1,6 @@
 import {Component, inject} from '@angular/core';
 import {Router} from '@angular/router';
-import {Game} from '../game/services/game';
+import {Game} from '../game/game.service';
 import {TranslocoModule, TranslocoService} from '@jsverse/transloco';
 import {CommonModule} from '@angular/common';
 
