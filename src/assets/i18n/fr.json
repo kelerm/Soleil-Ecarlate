@@ -1,12 +1,11 @@
 {
-    "menu": {
-        "guilde": "Soleil Ecarlate",
-        "new_game": "NOUVELLE PARTIE",
-        "continue": "CONTINUER (Bientôt)",
-        "load": "CHARGER (Bientôt)"
-    },
-    "transitions": {
-        "loading": "Ouverture du grimoire..."
-    }
-    
+  "menu": {
+    "guilde": "Soleil Ecarlate",
+    "new_game": "NOUVELLE PARTIE",
+    "continue": "CONTINUER (Bientôt)",
+    "load": "CHARGER (Bientôt)"
+  },
+  "transitions": {
+    "loading": "Ouverture du grimoire..."
+  }
 }

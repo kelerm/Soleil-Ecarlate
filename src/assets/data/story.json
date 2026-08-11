@@ -5,8 +5,14 @@
     "audio": "assets/audio/AkaneKakeroShort.ogg",
     "texte": "Le terminal clignote dans le noir. Une ligne de code attend votre validation...",
     "choix": [
-      { "texte": "Appuyer sur Entrée", "prochaineSceneId": "succes" },
-      { "texte": "Tout éteindre", "prochaineSceneId": "fin" }
+      {
+        "texte": "Appuyer sur Entrée",
+        "prochaineSceneId": "succes"
+      },
+      {
+        "texte": "Tout éteindre",
+        "prochaineSceneId": "fin"
+      }
     ]
   },
   "succes": {
@@ -14,7 +20,10 @@
     "image": "assets/scenes/ordinateur_allume.png",
     "texte": "L'application compile sans aucune erreur Angular ! Le projet est en ligne.",
     "choix": [
-      { "texte": "Recommencer l'aventure", "prochaineSceneId": "intro" }
+      {
+        "texte": "Recommencer l'aventure",
+        "prochaineSceneId": "intro"
+      }
     ]
   },
   "fin": {
@@ -22,7 +31,10 @@
     "image": "assets/scenes/lit.png",
     "texte": "Vous fermez les yeux. Demain est un autre jour pour coder.",
     "choix": [
-      { "texte": "Retourner au travail", "prochaineSceneId": "intro" }
+      {
+        "texte": "Retourner au travail",
+        "prochaineSceneId": "intro"
+      }
     ]
   }
 }
