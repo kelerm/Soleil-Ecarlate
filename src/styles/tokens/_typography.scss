@@ -5,7 +5,6 @@ $line-height-body: 1.5;
 $letter-spacing-retro: 0.25rem;
 
 // --- NOUVEAU : Police Accessible ---
-// Le nom doit correspondre à celui importé dans index.html
-$font-family-accessible: 'OpenDyslexic', 'Verdana', sans-serif; 
+$font-family-accessible: 'OpenDyslexic', 'Verdana', sans-serif;
 $line-height-accessible: 1.8; // Plus aéré pour la dyslexie
 $letter-spacing-accessible: 0.12em; // Léger espacement supplémentaire

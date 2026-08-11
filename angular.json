@@ -21,10 +21,17 @@
             "outputPath": "dist/mon-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": ["zone.js"],
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.app.json",
-            "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.scss"],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
             "stylePreprocessorOptions": {
               "includePaths": [
                 "src/styles"
@@ -54,8 +61,12 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
-            "production": { "buildTarget": "mon-app:build:production" },
-            "development": { "buildTarget": "mon-app:build:development" }
+            "production": {
+              "buildTarget": "mon-app:build:production"
+            },
+            "development": {
+              "buildTarget": "mon-app:build:development"
+            }
           },
           "defaultConfiguration": "development"
         }
