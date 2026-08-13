@@ -53,20 +53,24 @@
       "image": "assets/scenes/Akane_Kakera.gif",
       "texte": "Dans les premiers jours, elle avait dégainé son arc non pas contre un ennemi, mais contre Kelerm, la brute qui deviendrait leur chef.",
       "audio": "assets/audio/theme_tension.ogg",
-      "choix": [{
-        "texte": "Suivant",
-        "prochaineSceneId": "scene_6"
-      }]
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_6"
+        }
+      ]
     },
     "scene_6": {
       "id": "scene_6",
       "image": "assets/scenes/Akane_Kakera.gif",
       "texte": "Puis, c'était au tour de Lilith, la protectrice, d'être la cible de ces flèches imprévisibles. Le groupe tremblait, prêt à éclater.",
       "audio": "assets/audio/theme_tension.ogg",
-      "choix": [{
-        "texte": "Suivant",
-        "prochaineSceneId": "scene_7"
-      }]
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_7"
+        }
+      ]
     },
     "scene_7": {
       "id": "scene_7",

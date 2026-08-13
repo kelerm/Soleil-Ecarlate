@@ -101,10 +101,12 @@
       "image": "assets/scenes/Akane_Kakera.gif",
       "texte": "La sentence de Kuro fut immédiate : envoyé trimer à la taverne de l'Équinoxe Grenat pour détrousser discrètement les clients huppés.",
       "audio": "assets/audio/theme_taverne.ogg",
-      "choix": [        {
-        "texte": "Suivant",
-        "prochaineSceneId": "scene_10"
-      }]
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_10"
+        }
+      ]
     },
     "scene_10": {
       "id": "scene_10",
