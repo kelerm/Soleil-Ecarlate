@@ -2,12 +2,14 @@ import {computed, inject, Injectable, signal} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {AudioPlayer, Histoire, Scene, Typewriter} from '../game';
 import {TranslocoService} from "@jsverse/transloco";
+import {Router} from "@angular/router";
 
 @Injectable({
     providedIn: 'root'
 })
 export class Game {
     private http = inject(HttpClient);
+    private router = inject(Router);
     private translocoService = inject(TranslocoService);
 
     // Injection services spécialisés
@@ -38,10 +40,8 @@ export class Game {
     private chargerHistoire(): void {
 
         this.http.get<Histoire>(`assets/data/${this.currentActe()}.json`).subscribe({
-            next: (data) =>  {
+            next: (data) => {
                 this.histoire.set(data);
-                console.log(this.histoire());
-                this.appliquerScene();
             },
             error: (err) => console.error(`Erreur JSON : pour ${this.currentActe()}`, err)
         });
@@ -51,12 +51,16 @@ export class Game {
         this.currentActe.set('acte1');
         this.currentSceneId.set('scene_1');
         this.chargerHistoire();
+        this.appliquerScene();
     }
 
-    public selectionnerChoix(prochaineSceneId: string): void {
+    public selectionnerChoix(prochaineSceneId: string, choix: string): void {
 
         // 1. CAS PARTICULIER : Si l'ID est vide, c'est le signal de fin d'acte !
         if (!prochaineSceneId) {
+            if (choix === '(Bientôt)') {
+                this.router.navigate(['/']);
+            }
             // On extrait le numéro de l'acte actuel (ex: "acte1" -> 1)
             const numeroActeActuel = parseInt(this.currentActe().replace('acte', ''), 10);
             const prochainNumero = numeroActeActuel + 1;

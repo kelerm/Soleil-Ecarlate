@@ -17,7 +17,7 @@
             <div class="choices-container" (click)="$event.stopPropagation()">
                 @for (choix of s.choix; track choix.texte) {
                     <button
-                            (click)="gameService.selectionnerChoix(choix.prochaineSceneId)"
+                            (click)="gameService.selectionnerChoix(choix.prochaineSceneId, choix.texte)"
                             class="choice-btn">
                         {{ choix.texte }}
                     </button>
