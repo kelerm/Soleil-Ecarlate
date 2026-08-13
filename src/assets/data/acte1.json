@@ -1,0 +1,192 @@
+{
+  "acte1": {
+    "scene_1": {
+      "id": "scene_1",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Ils n'étaient pas des héros. Ils n'avaient pas de destinée commune, ni de prophétie à accomplir.",
+      "audio": "assets/audio/AkaneKakeroShort.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_2"
+        }
+      ]
+    },
+    "scene_2": {
+      "id": "scene_2",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Ils étaient juste quatre âmes brisées qui avaient décidé de survivre ensemble dans un monde cruel...",
+      "audio": "assets/audio/AkaneKakeroShort.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_3"
+        }
+      ]
+    },
+    "scene_3": {
+      "id": "scene_3",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "...et c'est dans cette simple survie que leur histoire a commencé.",
+      "audio": "assets/audio/AkaneKakeroShort.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_4"
+        }
+      ]
+    },
+    "scene_4": {
+      "id": "scene_4",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Au début, tout était chaos. Esh, la chasseresse, était une flamme incontrôlable.",
+      "audio": "assets/audio/theme_tension.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_5"
+        }
+      ]
+    },
+    "scene_5": {
+      "id": "scene_5",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Dans les premiers jours, elle avait dégainé son arc non pas contre un ennemi, mais contre Kelerm, la brute qui deviendrait leur chef.",
+      "audio": "assets/audio/theme_tension.ogg",
+      "choix": [{
+        "texte": "Suivant",
+        "prochaineSceneId": "scene_6"
+      }]
+    },
+    "scene_6": {
+      "id": "scene_6",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Puis, c'était au tour de Lilith, la protectrice, d'être la cible de ces flèches imprévisibles. Le groupe tremblait, prêt à éclater.",
+      "audio": "assets/audio/theme_tension.ogg",
+      "choix": [{
+        "texte": "Suivant",
+        "prochaineSceneId": "scene_7"
+      }]
+    },
+    "scene_7": {
+      "id": "scene_7",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "C'est là qu'Ash est entré dans le tableau. Le Rogue, celui qui savait écouter, celui que tous adoraient, s'est imposé comme le ciment.",
+      "audio": "assets/audio/theme_compagnie.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_8"
+        }
+      ]
+    },
+    "scene_8": {
+      "id": "scene_8",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Il a pris le titre de Lieutenant pour protéger. Et pour sceller la paix, il a fait l'impossible : il a épousé Esh.",
+      "audio": "assets/audio/theme_compagnie.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_9"
+        }
+      ]
+    },
+    "scene_9": {
+      "id": "scene_9",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Pendant un temps, ça a marché. Les flèches d'Esh se sont tues. Ash a cru avoir gagné la guerre intérieure.",
+      "audio": "assets/audio/theme_compagnie.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_10"
+        }
+      ]
+    },
+    "scene_10": {
+      "id": "scene_10",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Pour fortifier cette paix nouvelle, la Compagnie a ouvert ses rangs à une nouvelle force mystique : Kuro, le Médecin Noir.",
+      "audio": "assets/audio/theme_kuro.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_11"
+        }
+      ]
+    },
+    "scene_11": {
+      "id": "scene_11",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Kuro avait été élevé par les sangliers. Une enfance sauvage qui lui conférait une volonté de fer... tant qu'il restait éveillé.",
+      "audio": "assets/audio/theme_kuro.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_12"
+        }
+      ]
+    },
+    "scene_12": {
+      "id": "scene_12",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Mais la nature ne change pas si facilement. L'instinct le plus dévastateur d'Esh s'est éveillé à nouveau : celui d'une implacable tireuse d'élite.",
+      "audio": "assets/audio/theme_drame.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_13"
+        }
+      ]
+    },
+    "scene_13": {
+      "id": "scene_13",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Dans un geste qui semblait presque délibéré, elle a braqué cette nouvelle puissance sur Lilith. Deux fois. Pas par erreur. Pas par accident.",
+      "audio": "assets/audio/theme_drame.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_14"
+        }
+      ]
+    },
+    "scene_14": {
+      "id": "scene_14",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Le résultat fut une ironie cruelle : Esh, l'agresseuse, devint encore plus forte. Et Lilith, la victime, fut marquée par le sceau d'un épuisement profond.",
+      "audio": "assets/audio/theme_drame.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_15"
+        }
+      ]
+    },
+    "scene_15": {
+      "id": "scene_15",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Et au milieu de tout cela, il y avait Kelerm. Le chef. Il était là, assis à l'écart, regardant le feu. Il ne disait rien. C'était le silence au milieu du cri.",
+      "audio": "assets/audio/AkaneKakeroShort.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_16"
+        }
+      ]
+    },
+    "scene_16": {
+      "id": "scene_16",
+      "image": "assets/scenes/Akane_Kakera.gif",
+      "texte": "Aujourd'hui, la troupe avance. Ce ne sont pas des héros. Ce sont des mercenaires. Et leur aventure est une lutte quotidienne pour rester ensemble.",
+      "audio": "assets/audio/AkaneKakeroShort.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": ""
+        }
+      ]
+    }
+  }
+}
