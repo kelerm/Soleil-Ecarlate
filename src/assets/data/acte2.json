@@ -2,7 +2,7 @@
   "acte2": {
     "scene_1": {
       "id": "scene_1",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Le temps a passé, et le chaos a fini par forger de nouvelles alliances.",
       "audio": "assets/audio/theme_soleil_couchant.ogg",
       "choix": [
@@ -14,7 +14,7 @@
     },
     "scene_2": {
       "id": "scene_2",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Contre toute attente, la tempête entre Lilith et Esh s’est apaisée. Le ressentiment a laissé place à une étrange sororité de survivantes.",
       "audio": "assets/audio/theme_soleil_couchant.ogg",
       "choix": [
@@ -26,7 +26,7 @@
     },
     "scene_3": {
       "id": "scene_3",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Pour sceller la cohésion des sommets, Lilith a uni son destin à celui de Kelerm. Elle va bien mieux aujourd'hui, guérie de son épuisement.",
       "audio": "assets/audio/theme_soleil_couchant.ogg",
       "choix": [
@@ -38,7 +38,7 @@
     },
     "scene_4": {
       "id": "scene_4",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Mais le monde extérieur continue d'imposer sa cruauté absurde. La tragédie a frappé la meute là où personne ne l'attendait.",
       "audio": "assets/audio/theme_triste_animal.ogg",
       "choix": [
@@ -50,7 +50,7 @@
     },
     "scene_5": {
       "id": "scene_5",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Petit Tonnerre, l'un des poneys de la troupe, s'est éteint en route, emporté par une famine brutale et inexplicable.",
       "audio": "assets/audio/theme_triste_animal.ogg",
       "choix": [
@@ -62,7 +62,7 @@
     },
     "scene_6": {
       "id": "scene_6",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "L'ironie fut totale : les chariots débordaient de provisions. Une simple négligence d'intendance, et une vie s'est envolée.",
       "audio": "assets/audio/theme_triste_animal.ogg",
       "choix": [
@@ -74,7 +74,7 @@
     },
     "scene_7": {
       "id": "scene_7",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Cette faille dans la vigilance n'a pas tardé à être exploitée. Profitant du sommeil lourd de Kuro, le hors-la-loi Raxx s'est évadé.",
       "audio": "assets/audio/theme_colere_ash.ogg",
       "choix": [
@@ -86,7 +86,7 @@
     },
     "scene_8": {
       "id": "scene_8",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Cette évasion a plongé Ash dans une rage noire. Devenu tyrannique et suspicieux, le lieutenant a juré qu'on ne l'y reprendrait plus.",
       "audio": "assets/audio/theme_colere_ash.ogg",
       "choix": [
@@ -98,7 +98,7 @@
     },
     "scene_9": {
       "id": "scene_9",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "La sentence de Kuro fut immédiate : envoyé trimer à la taverne de l'Équinoxe Grenat pour détrousser discrètement les clients huppés.",
       "audio": "assets/audio/theme_taverne.ogg",
       "choix": [
@@ -110,7 +110,7 @@
     },
     "scene_10": {
       "id": "scene_10",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Pour combler les vides, de nouvelles têtes ont été recrutées. Parmi elles, Zek, un arbalétrier d'âge mûr au tempérament taciturne.",
       "audio": "assets/audio/theme_taverne.ogg",
       "choix": [
@@ -122,7 +122,7 @@
     },
     "scene_11": {
       "id": "scene_11",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Pêcheur habitué au calme des lignes d'eau, il s'est retrouvé jeté dans le bain des combats, devenant instantanément notre tireur d'élite.",
       "audio": "assets/audio/theme_action.ogg",
       "choix": [
@@ -134,7 +134,7 @@
     },
     "scene_12": {
       "id": "scene_12",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Zek a vite été promu superviseur de la taverne. Mais avec bienveillance, il s'est imposé comme une ombre protectrice pour Kuro en coulisses.",
       "audio": "assets/audio/theme_taverne.ogg",
       "choix": [
@@ -146,7 +146,7 @@
     },
     "scene_13": {
       "id": "scene_13",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "L'autre recrue, Akane, est devenue l'authentique rayon de soleil de la troupe. Portant haut son titre d'Âme Écarlate.",
       "audio": "assets/audio/theme_soleil_couchant.ogg",
       "choix": [
@@ -158,7 +158,7 @@
     },
     "scene_14": {
       "id": "scene_14",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Sa bienveillance a brisé les carapaces des plus endurcis, et même les prédateurs de la Meute viennent chercher ses caresses au bivouac.",
       "audio": "assets/audio/theme_soleil_couchant.ogg",
       "choix": [
@@ -170,7 +170,7 @@
     },
     "scene_15": {
       "id": "scene_15",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "C'est dans cette ambiance qu'enchaînée au centre du camp, la saboteuse capturée Lyss fait son entrée sous le regard glacial d'Ash.",
       "audio": "assets/audio/theme_tension.ogg",
       "choix": [
@@ -182,7 +182,7 @@
     },
     "scene_16": {
       "id": "scene_16",
-      "image": "assets/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
       "texte": "Autour du feu, sous la lumière rougeoyante, les Adeptes attendent le moment où Lyss acceptera qu'on lui brise ses chaînes pour survivre à leurs côtés.",
       "audio": "assets/audio/theme_soleil_couchant.ogg",
       "choix": [
