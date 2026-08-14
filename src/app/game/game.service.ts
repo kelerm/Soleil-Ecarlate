@@ -15,7 +15,6 @@ export class Game {
     // Injection services spécialisés
     private audioService = inject(AudioPlayer);
     public typewriterService = inject(Typewriter);
-    private readonly accessibilityService = inject(AccessibilityService);
 
     private histoire = signal<Histoire | null>(null);
     private currentActe = signal<string>('acte1');
