@@ -1,6 +1,6 @@
 import {computed, inject, Injectable, signal} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {AudioPlayer, Histoire, Scene, Typewriter} from '../game';
+import {AccessibilityService, AudioPlayer, Histoire, Scene, Typewriter} from '../game';
 import {TranslocoService} from "@jsverse/transloco";
 import {Router} from "@angular/router";
 
@@ -15,6 +15,7 @@ export class Game {
     // Injection services spécialisés
     private audioService = inject(AudioPlayer);
     public typewriterService = inject(Typewriter);
+    private readonly accessibilityService = inject(AccessibilityService);
 
     private histoire = signal<Histoire | null>(null);
     private currentActe = signal<string>('acte1');

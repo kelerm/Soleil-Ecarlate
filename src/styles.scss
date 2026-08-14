@@ -2,3 +2,5 @@
 @use 'menu';
 @use 'game';
 @use 'transitions';
+// Import de la typo EN DERNIER pour que la règle .accessible-mode écrase le reste
+@use 'tokens/typography';
