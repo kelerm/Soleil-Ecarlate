@@ -2,6 +2,8 @@
 
 Application Angular 20 pour une App dont vous êtes le héro.
 
+pour tester : https://kelerm.itch.io/soleil-ecarlate
+
 ## Structure du projet
 
 ```
@@ -9,6 +11,7 @@ src/
 ├── app/                        <-- les composants, services et logique TypeScript
 │   ├── game/
 │   │   ├── visual-novel/       <-- le "moteur visuel"
+│   │   ├── accessibility.service.ts
 │   │   ├── audio-player.service.ts
 │   │   ├── game.model.ts
 │   │   ├── game.service.ts
@@ -19,8 +22,11 @@ src/
 ├── assets/                     <-- ressources physiques
 │   ├── audio/    (.ogg)
 │   ├── data/                   <-- contient les histoires découpées par scènes/act
+│   ├── fonts/
 │   ├── i18n/
-│   └── scenes/   (.gif)
+│   └── images/
+│       ├── pixel-art-gnrl/
+│       └── scenes/   (.gif)
 │
 ├── styles/                     <-- DESIGN TOKENS ET SCSS GLOBALISED
 │   ├── tokens/
