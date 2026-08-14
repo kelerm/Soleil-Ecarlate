@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('/assets/fonts/OpenDyslexic-Regular.woff2') format('woff2');
+  font-display: swap; // Évite le flash de texte invisible
+}
+
 $font-family-retro: 'Courier New', Courier, monospace;
 $font-size-title: 3rem;
 $font-size-body: 1.1rem;
@@ -8,3 +14,14 @@ $letter-spacing-retro: 0.25rem;
 $font-family-accessible: 'OpenDyslexic', 'Verdana', sans-serif;
 $line-height-accessible: 1.8; // Plus aéré pour la dyslexie
 $letter-spacing-accessible: 0.12em; // Léger espacement supplémentaire
+
+// On utilise un sélecteur fort pour être sûr
+body.accessible-mode {
+  font-family: $font-family-accessible !important;
+  line-height: $line-height-accessible !important;
+  letter-spacing: $letter-spacing-accessible !important;
+}
+
+body.accessible-mode * {
+  font-family: inherit !important;
+}

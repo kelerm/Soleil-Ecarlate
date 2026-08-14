@@ -40,10 +40,27 @@
       margin-bottom: 20px;
       white-space: pre-wrap;
 
-      // TODO a voir pour trouver une autre icone, voir la faire
+      min-height: 8rem;
+
       &::after {
-        content: ' ✎'; // Icône de plume ?
-        color: #b5945b; // couleur or / parchemin pour adoucir le blanc
+        content: '';
+        display: inline-block; // Permet de donner une taille à l'image
+
+        // 1. Gestion de la taille
+        width: 16px;
+        height: 16px;
+        margin-left: 8px; // espace entre texte et icone
+
+        // 2. Intégration image
+        background-image: url('../assets/images/pixel-art-gnrl/eclat-tipewriter.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        // 3. LA règle d'or pour que le pixel art reste bien net :
+        image-rendering: pixelated;
+
+        // 4. aniomation
         animation: clignotement 1s infinite ease-in-out;
       }
     }

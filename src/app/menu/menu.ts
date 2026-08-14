@@ -1,6 +1,6 @@
 import {Component, inject} from '@angular/core';
 import {Router} from '@angular/router';
-import {Game} from '../game/game.service';
+import {AccessibilityService, Game} from '../game';
 import {TranslocoModule, TranslocoService} from '@jsverse/transloco';
 import {CommonModule} from '@angular/common';
 
@@ -13,14 +13,14 @@ import {CommonModule} from '@angular/common';
 })
 
 export class MenuComponent {
-    isAccessibleMode: boolean = false;
+    private readonly accessibilityService = inject(AccessibilityService);
+    readonly accessibleMode = this.accessibilityService.isActive;
     private router = inject(Router);
     private gameService = inject(Game); // <-- Injecte le service ici
     private transloco = inject(TranslocoService);
 
     toggleAccessibility() {
-        this.isAccessibleMode = !this.isAccessibleMode;
-        console.log('Mode accessible activé:', this.isAccessibleMode);
+        this.accessibilityService.toggle();
     }
 
     public commencerPartie(): void {
