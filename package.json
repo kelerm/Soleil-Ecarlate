@@ -7,7 +7,7 @@
     "build": "ng build",
 
     "build:itch": "ng build --base-href ./ && npm run zip:itch",
-    "zip:itch": "cd dist/soleil-ecarlate && tar -a -c -f ../../jeu-itchio.zip *",
+    "zip:itch": "cd dist/soleil-ecarlate && tar -a -c -f ../../soleil-ecarlate.zip *",
 
     "watch": "ng build --watch --configuration development"
   },
