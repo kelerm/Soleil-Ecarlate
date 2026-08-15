@@ -22,13 +22,10 @@ export class AudioPlayer {
 
         // COMPARAISON TEXTUELLE STRICTE : On ne regarde PLUS DU TOUT le 'this.audioPlayer.src' du navigateur
         if (this.currentTrackPath === cleanPath) {
-            console.log(`[Audio] Même musique (${cleanPath}), on ne coupe pas.`);
             return; // On stoppe la fonction ici, la musique continue sans hoquet
         }
 
         // Si on arrive ici, c'est que c'est une NOUVELLE musique
-        console.log(`[Audio] Changement de piste : ${this.currentTrackPath} -> ${cleanPath}`);
-
         this.currentTrackPath = cleanPath;
         this.audioPlayer.src = cleanPath;
         this.audioPlayer.loop = true;

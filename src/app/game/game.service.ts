@@ -89,14 +89,12 @@ export class Game {
     // Centralisation de la distribution des tâches
     private appliquerScene(): void {
         const scene = this.currentScene();
-        console.log(scene);
         if (scene) {
             if (scene.audio) {
                 this.audioService.gererMusique(scene.audio);
             }
             // Récupération dynamique via Transloco avec l' ID de scène en clé plate
             const texteTraduit = this.translocoService.translate(scene.texte);
-            console.log(texteTraduit);
             this.typewriterService.lancer(texteTraduit);
         }
     }
