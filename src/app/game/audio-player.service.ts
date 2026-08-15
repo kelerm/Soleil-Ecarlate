@@ -13,7 +13,7 @@ export class AudioPlayer {
             return;
         }
 
-        const fullUrl = window.location.origin + '/' + path;
+        const fullUrl = window.location.origin + './' + path;
 
         // Si c'est la même musique qui tourne déjà, l'IF bloque et le son continue sans hoquet
         if (this.audioPlayer.src !== fullUrl) {
