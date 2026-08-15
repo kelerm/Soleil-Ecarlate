@@ -1,5 +1,13 @@
+#______ Dependances ______
 node_modules
-.angular/
+
+#______ Ide ______
 .idea/
-.dist/
+
+#______ Projet ______
+.angular/
+dist/
 package-lock.json
+
+#______ Prod ______
+soleil-ecarlate.zip
