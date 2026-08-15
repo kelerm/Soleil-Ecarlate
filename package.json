@@ -1,11 +1,14 @@
 {
-  "name": "mon-app-angular20",
+  "name": "soleil-ecarlate",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:itch": "ng build --base-href ./",
+
+    "build:itch": "ng build --base-href ./ && npm run zip:itch",
+    "zip:itch": "cd dist/soleil-ecarlate && tar -a -c -f ../../jeu-itchio.zip *",
+
     "watch": "ng build --watch --configuration development"
   },
   "private": true,
