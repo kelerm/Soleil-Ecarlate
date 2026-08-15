@@ -2,7 +2,7 @@
 
 Application Angular 20 pour une App dont vous êtes le héro.
 
-pour tester : https://kelerm.itch.io/soleil-ecarlate
+[🎮 Jouer à la version Bêta sur itch.io](https://kelerm.itch.io/soleil-ecarlate?secret=Uaer8CHVC36EvIUvVslgOYgEKc)
 
 ## Structure du projet
 
@@ -71,18 +71,23 @@ L'application sera disponible sur **http://localhost:4200**
 npm run build
 ```
 
-Les fichiers seront générés dans `dist/mon-app/`.
+Les fichiers optimisés seront générés dans `dist/soleil-ecarlate/browser/`.
 
-## Fonctionnalités
 
-- ✅ **Angular 20** avec composants standalone
-- ✅ **Routing** Angular configuré
+## 🚀 Build pour itch.io
 
-## Ajouter une nouvelle page
+Pour tester ou publier le jeu sur itch.io et de générer directement l'archive prête à l'envoi.
 
+Pour lancer le build et créer le ZIP :
 ```bash
-ng generate component ma-page
+npm run build:itch
 ```
 
-Puis ajouter la route dans `src/app/app.routes.ts`
+Cela compresse automatiquement le contenu du dossier `dist/soleil-ecarlate/browser` dans un fichier `soleil-ecarlate.zip` à la racine du projet.
 
+
+
+## ⚖️ Licence
+
+* **Code source :** Open source (Faites-vous plaisir ! - License MIT).
+* **Graphismes (Pixel art) & Musiques (8-bits) :** Pas libres de droits. Ca m'a pris trop de temps.
