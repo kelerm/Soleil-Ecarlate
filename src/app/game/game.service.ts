@@ -1,6 +1,6 @@
 import {computed, inject, Injectable, signal} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {AudioPlayer, Histoire, SaveService, Scene, Typewriter} from '../game';
+import {AudioPlayer, Histoire, Scene, Typewriter} from '../game';
 import {TranslocoService} from "@jsverse/transloco";
 import {Router} from "@angular/router";
 
