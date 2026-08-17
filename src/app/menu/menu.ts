@@ -37,6 +37,7 @@ export class MenuComponent {
         if (sauvegarde) {
             // On injecte directement l'état sauvegardé dans les signaux du jeu
             this.gameService.chargerPartieDepuisSauvegarde(sauvegarde.acte, sauvegarde.sceneId);
+            this.router.navigate(['/jeu']);
         }
     }
 

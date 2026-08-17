@@ -93,6 +93,10 @@ export class GameService {
         }
     }
 
+    getCurrentActe() {
+        return this.currentActe();
+    }
+
     // Centralisation de la distribution des tâches
     private appliquerScene(): void {
         const scene = this.currentScene();
