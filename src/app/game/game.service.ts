@@ -1,13 +1,13 @@
 import {computed, inject, Injectable, signal} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {AccessibilityService, AudioPlayer, Histoire, Scene, Typewriter} from '../game';
+import {AudioPlayer, Histoire, Scene, Typewriter} from '../game';
 import {TranslocoService} from "@jsverse/transloco";
 import {Router} from "@angular/router";
 
 @Injectable({
     providedIn: 'root'
 })
-export class Game {
+export class GameService {
     private http = inject(HttpClient);
     private router = inject(Router);
     private translocoService = inject(TranslocoService);
@@ -35,6 +35,13 @@ export class Game {
 
     constructor() {
         this.chargerHistoire();
+    }
+
+    public chargerPartieDepuisSauvegarde(acte: string, sceneId: string): void {
+        this.currentActe.set(acte);
+        this.currentSceneId.set(sceneId);
+        this.chargerHistoire();
+        this.appliquerScene();
     }
 
     private chargerHistoire(): void {
@@ -84,6 +91,10 @@ export class Game {
         } else {
             console.warn(`La scène [${prochaineSceneId}] est introuvable dans l'acte [${this.currentActe()}].`);
         }
+    }
+
+    getCurrentActe() {
+        return this.currentActe();
     }
 
     // Centralisation de la distribution des tâches

@@ -27,12 +27,13 @@
   }
 
   .dialogue-box {
+    position: relative;
     width: 100%;
     max-width: 512px;
     margin-top: 20px;
     background: $box-bg;
     border: 2px solid $text-color;
-    padding: 15px;
+    padding: 15px 15px 40px;
 
     .story-text {
       font-size: 1.1rem;
@@ -93,6 +94,35 @@
           background: #444;
           border-color: $text-color;
         }
+      }
+    }
+
+    .save-btn-retro {
+      display: flex;
+      align-items: center; /* Aligne le grimoire et le texte verticalement */
+      justify-content: center;
+      margin-top: 10px;
+
+      //background: #ffffff !important;
+      //color: #000000 !important;
+
+      &::before {
+        content: '';
+        display: inline-block;
+
+        // 1. Taille exacte du grimoire
+        width: 24px;
+        height: 24px;
+        margin-right: 12px; // Espace entre le grimoire et ton texte "Sauvegarder..."
+
+        // 2. Intégration de l'image
+        background-image: url('../assets/images/pixel-art-gnrl/parchemin-save.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        // règle d'or pour garder les pixels bien nets
+        image-rendering: pixelated;
       }
     }
   }

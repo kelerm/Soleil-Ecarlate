@@ -1,6 +1,6 @@
 import {Component, inject} from '@angular/core';
 import {Router} from '@angular/router';
-import {AccessibilityService, Game} from '../game';
+import {AccessibilityService, GameService, SaveService} from '../game';
 import {TranslocoModule, TranslocoService} from '@jsverse/transloco';
 import {CommonModule} from '@angular/common';
 
@@ -16,7 +16,8 @@ export class MenuComponent {
     private readonly accessibilityService = inject(AccessibilityService);
     readonly accessibleMode = this.accessibilityService.isActive;
     private router = inject(Router);
-    private gameService = inject(Game); // <-- Injecte le service ici
+    private gameService = inject(GameService);
+    public saveService = inject(SaveService);
     private transloco = inject(TranslocoService);
 
     toggleAccessibility() {
@@ -29,6 +30,15 @@ export class MenuComponent {
 
         // 2. On navigue vers l'écran de jeu
         this.router.navigate(['/jeu']);
+    }
+
+    public continuerPartie(): void {
+        const sauvegarde = this.saveService.charger();
+        if (sauvegarde) {
+            // On injecte directement l'état sauvegardé dans les signaux du jeu
+            this.gameService.chargerPartieDepuisSauvegarde(sauvegarde.acte, sauvegarde.sceneId);
+            this.router.navigate(['/jeu']);
+        }
     }
 
     // Change la langue

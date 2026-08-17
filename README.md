@@ -16,6 +16,7 @@ src/
 │   │   ├── game.model.ts
 │   │   ├── game.service.ts
 │   │   ├── index.ts            <-- barrel
+│   │   ├── save.service.ts
 │   │   └── typewriter.service.ts
 │   └── menu/
 │

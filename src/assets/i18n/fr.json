@@ -2,7 +2,7 @@
   "menu": {
     "guilde": "Soleil Ecarlate",
     "new_game": "NOUVELLE PARTIE",
-    "continue": "CONTINUER (Bientôt)",
+    "continue": "CONTINUER",
     "load": "CHARGER (Bientôt)"
   },
   "transitions": {
