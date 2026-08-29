@@ -199,8 +199,20 @@
       "audio": "assets/audio/theme_soleil_couchant.ogg",
       "choix": [
         {
-          "texte": "(Bientôt)",
-          "prochaineSceneId": ""
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_18"
+        }
+      ]
+    },
+    "scene_18": {
+      "id": "scene_18",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "texte": "Le feu s'éteint doucement, laissant place aux braises rouges sous le ciel étoilé. La Compagnie du Soleil Écarlate s'endort... mais les routes de demain réservent encore bien des légendes. Merci d'avoir joué à cette première chronique !",
+      "audio": "assets/audio/theme_soleil_couchant.ogg",
+      "choix": [
+        {
+          "texte": "Fin du Premier Chapitre",
+          "prochaineSceneId": "menu_principal"
         }
       ]
     }
