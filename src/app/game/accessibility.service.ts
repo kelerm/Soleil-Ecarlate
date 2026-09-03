@@ -1,6 +1,6 @@
-import {Injectable, signal} from '@angular/core';
+import { Injectable, signal } from '@angular/core';
 
-@Injectable({providedIn: 'root'})
+@Injectable({ providedIn: 'root' })
 export class AccessibilityService {
     // Signal pour savoir si le mode est actif (utile pour les boutons UI)
     readonly isActive = signal<boolean>(false);

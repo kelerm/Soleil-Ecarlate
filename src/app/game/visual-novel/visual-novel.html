@@ -1,36 +1,36 @@
 @if (gameService.currentScene(); as s) {
-    <div class="vn-container">
-
-        <!-- Image Pixel Art -->
-        <div class="screen-wrapper">
-            <img [src]="s.image" [alt]="s.id" class="pixel-art-scene"/>
-        </div>
-
-        <!-- Boîte de dialogue cliquable -->
-        <div class="dialogue-box"
-             (click)="gameService.typewriterService.passer()"
-             [class.cliquable]="gameService.typewriterService.enCoursDecriture()">
-
-            <p class="story-text">{{ gameService.typewriterService.texteAffiche() }}</p>
-
-            <!-- Liste des boutons de choix -->
-            <div class="choices-container" (click)="$event.stopPropagation()">
-                @for (choix of s.choix; track choix.texte) {
-                    <button
-                            (click)="gameService.selectionnerChoix(choix.prochaineSceneId, choix.texte)"
-                            class="choice-btn">
-                        {{ choix.texte }}
-                    </button>
-                }
-                <button (click)="sauvegarder()" class="choice-btn save-btn-retro">
-                    Sauvegarder la progression
-                </button>
-            </div>
-        </div>
-
+<div class="vn-container">
+    <!-- Image Pixel Art -->
+    <div class="screen-wrapper">
+        <img [src]="s.image" [alt]="s.id" class="pixel-art-scene" />
     </div>
+
+    <!-- Boîte de dialogue cliquable -->
+    <div
+        class="dialogue-box"
+        (click)="gameService.typewriterService.passer()"
+        [class.cliquable]="gameService.typewriterService.enCoursDecriture()"
+    >
+        <p class="story-text">{{ gameService.typewriterService.texteAffiche() }}</p>
+
+        <!-- Liste des boutons de choix -->
+        <div class="choices-container" (click)="$event.stopPropagation()">
+            @for (choix of s.choix; track choix.texte) {
+            <button
+                (click)="gameService.selectionnerChoix(choix.prochaineSceneId, choix.texte)"
+                class="choice-btn"
+            >
+                {{ choix.texte }}
+            </button>
+            }
+            <button (click)="sauvegarder()" class="choice-btn save-btn-retro">
+                Sauvegarder la progression
+            </button>
+        </div>
+    </div>
+</div>
 } @else {
-    <div *transloco="let t">
-        <div class="loader-grimoire">{{ t('transitions.loading') }}</div>
-    </div>
+<div *transloco="let t">
+    <div class="loader-grimoire">{{ t('transitions.loading') }}</div>
+</div>
 }

@@ -10,7 +10,7 @@ const config = {
         {
             files: '*.scss',
             tabWidth: 2,
-        }
+        },
     ],
 };
 

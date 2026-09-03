@@ -1,220 +1,220 @@
 {
-  "acte3": {
-    "scene_1": {
-      "id": "scene_1",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "Alors que la nuit enveloppe le campement et que les tensions des mercenaires s'apaisent enfin dans la chaleur du feu, les regards se tournent vers ceux qui partagent leur vie sauvage.",
-      "audio": "assets/audio/theme_soleil_couchant.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_2"
+    "acte3": {
+        "scene_1": {
+            "id": "scene_1",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "Alors que la nuit enveloppe le campement et que les tensions des mercenaires s'apaisent enfin dans la chaleur du feu, les regards se tournent vers ceux qui partagent leur vie sauvage.",
+            "audio": "assets/audio/theme_soleil_couchant.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_2"
+                }
+            ]
+        },
+        "scene_2": {
+            "id": "scene_2",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "Autour du feu, on se rappelle les premiers pas, les combats oubliés et le sacrifice des compagnons à crocs, à sabots et à griffes. Voici leurs histoires.",
+            "audio": "assets/audio/theme_soleil_couchant.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_3"
+                }
+            ]
+        },
+        "scene_3": {
+            "id": "scene_3",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "STRONG : 'Il fut la première fondation de notre marche, un roc de muscles et de dévotion pure, guidant nos chariots à travers les ténèbres et les pires bourbiers du monde.'",
+            "audio": "assets/audio/theme_triste_strong.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_4"
+                }
+            ]
+        },
+        "scene_4": {
+            "id": "scene_4",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "STRONG : 'Ce jour-là, une flèche a fendu l'air, condamnée par l'arc instable d'Esh. Ce trait perdu, destiné à consumer l'ennemi, est venu frapper le cœur de notre premier destrier.'",
+            "audio": "assets/audio/theme_triste_strong.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_5"
+                }
+            ]
+        },
+        "scene_5": {
+            "id": "scene_5",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "STRONG : 'En versant le sang de notre allié, le feu de Strong s'est brutalement éteint. Ce sacrifice a brisé la troupe, allumé la rancune de Lilith et scellé le renoncement d'Esh.'",
+            "audio": "assets/audio/theme_triste_strong.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_6"
+                }
+            ]
+        },
+        "scene_6": {
+            "id": "scene_6",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "LONDON : 'Il était le roi de la meute originelle, un loup au pelage d'hiver dont la fierté n'avait d'égale que la férocité. Sa fin fut à l'image de sa vie : indomptable.'",
+            "audio": "assets/audio/theme_london.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_7"
+                }
+            ]
+        },
+        "scene_7": {
+            "id": "scene_7",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "LONDON : 'Face à un ennemi colossal, refusant d'obéir à l'ordre de repli, London a chargé seul dans un ultime élan de fureur sauvage. Il est mort libre et insoumis.'",
+            "audio": "assets/audio/theme_london.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_8"
+                }
+            ]
+        },
+        "scene_8": {
+            "id": "scene_8",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "PETIT TONNERRE : 'De tous nos deuils, celui-ci reste le plus amère, car il n'a pas l'odeur du sang ou de la guerre, mais celle de la bêtise humaine.'",
+            "audio": "assets/audio/theme_triste_animal.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_9"
+                }
+            ]
+        },
+        "scene_9": {
+            "id": "scene_9",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "PETIT TONNERRE : 'Il a survécu aux embuscades pour finalement s'éteindre de faim alors que nos chariots débordaient de provisions. Une tragédie administrative.'",
+            "audio": "assets/audio/theme_triste_animal.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_10"
+                }
+            ]
+        },
+        "scene_10": {
+            "id": "scene_10",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "BRAISE : 'Kuro, élevé par les sangliers, avait besoin d'une bête capable de s'unir à son esprit pour maximiser ses décoctions. C'est ainsi que Braise a rejoint nos rangs.'",
+            "audio": "assets/audio/theme_braise.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_11"
+                }
+            ]
+        },
+        "scene_11": {
+            "id": "scene_11",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "BRAISE : 'Mais Kuro s'est endormi, Raxx s'est évadé, et le soigneur a fini à la taverne. Pourtant Braise est resté au cœur de l'action, chargeant désormais aux côtés d'Ash.'",
+            "audio": "assets/audio/theme_braise.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_12"
+                }
+            ]
+        },
+        "scene_12": {
+            "id": "scene_12",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "NOX : 'Son lien s'est tissé au sommet d'une montagne battue par les vents. Alors que sa horde nous fonçait dessus, Nox s'est détaché pour devenir le gardien de notre meute.'",
+            "audio": "assets/audio/theme_nox.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_13"
+                }
+            ]
+        },
+        "scene_13": {
+            "id": "scene_13",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "NOX : 'Il a péri une nuit de cueillette de champignons, face à des Loups Fantômes. Fidèle jusqu'au bout, il a lutté contre l'invincible avant de tomber seul dans l'ombre.'",
+            "audio": "assets/audio/theme_nox.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_14"
+                }
+            ]
+        },
+        "scene_14": {
+            "id": "scene_14",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "KAKERA : 'S'il est un colosse dont la chair semble pétrie dans le sang de nos batailles, c'est lui. Kakera signifie \"le Fragment\". Un éclat brut arraché à la fureur du monde.'",
+            "audio": "assets/audio/theme_soleil_couchant.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_15"
+                }
+            ]
+        },
+        "scene_15": {
+            "id": "scene_15",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "KAKERA : 'Ash a apaisé sa sauvagerie solitaire. Aujourd'hui, sa stature immense rassure la troupe. Il est notre mur de fourrure, un titan indéboulonnable qui veille sur nous.'",
+            "audio": "assets/audio/theme_soleil_couchant.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_16"
+                }
+            ]
+        },
+        "scene_16": {
+            "id": "scene_16",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "LES MONTURES : 'Aube et Crépuscule portent dans leur pelage la nuance exacte de notre astre sacré. Le matin flamboyant et le rouge profond du bivouac. Ils guident nos pas.'",
+            "audio": "assets/audio/theme_soleil_couchant.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_17"
+                }
+            ]
+        },
+        "scene_17": {
+            "id": "scene_17",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "LES JOYAUX : 'Rubis et Grenat, gardés bien loin du fracas des batailles pour ne jamais revivre le sort de Strong, tirent nos chariots lourds et font la fierté de la Compagnie. Fin.'",
+            "audio": "assets/audio/theme_soleil_couchant.ogg",
+            "choix": [
+                {
+                    "texte": "Suivant",
+                    "prochaineSceneId": "scene_18"
+                }
+            ]
+        },
+        "scene_18": {
+            "id": "scene_18",
+            "image": "assets/images/scenes/Akane_Kakera.gif",
+            "texte": "Le feu s'éteint doucement, laissant place aux braises rouges sous le ciel étoilé. La Compagnie du Soleil Écarlate s'endort... mais les routes de demain réservent encore bien des légendes. Merci d'avoir joué à cette première chronique !",
+            "audio": "assets/audio/theme_soleil_couchant.ogg",
+            "choix": [
+                {
+                    "texte": "Fin du Premier Chapitre",
+                    "prochaineSceneId": "menu_principal"
+                }
+            ]
         }
-      ]
-    },
-    "scene_2": {
-      "id": "scene_2",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "Autour du feu, on se rappelle les premiers pas, les combats oubliés et le sacrifice des compagnons à crocs, à sabots et à griffes. Voici leurs histoires.",
-      "audio": "assets/audio/theme_soleil_couchant.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_3"
-        }
-      ]
-    },
-    "scene_3": {
-      "id": "scene_3",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "STRONG : 'Il fut la première fondation de notre marche, un roc de muscles et de dévotion pure, guidant nos chariots à travers les ténèbres et les pires bourbiers du monde.'",
-      "audio": "assets/audio/theme_triste_strong.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_4"
-        }
-      ]
-    },
-    "scene_4": {
-      "id": "scene_4",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "STRONG : 'Ce jour-là, une flèche a fendu l'air, condamnée par l'arc instable d'Esh. Ce trait perdu, destiné à consumer l'ennemi, est venu frapper le cœur de notre premier destrier.'",
-      "audio": "assets/audio/theme_triste_strong.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_5"
-        }
-      ]
-    },
-    "scene_5": {
-      "id": "scene_5",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "STRONG : 'En versant le sang de notre allié, le feu de Strong s'est brutalement éteint. Ce sacrifice a brisé la troupe, allumé la rancune de Lilith et scellé le renoncement d'Esh.'",
-      "audio": "assets/audio/theme_triste_strong.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_6"
-        }
-      ]
-    },
-    "scene_6": {
-      "id": "scene_6",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "LONDON : 'Il était le roi de la meute originelle, un loup au pelage d'hiver dont la fierté n'avait d'égale que la férocité. Sa fin fut à l'image de sa vie : indomptable.'",
-      "audio": "assets/audio/theme_london.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_7"
-        }
-      ]
-    },
-    "scene_7": {
-      "id": "scene_7",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "LONDON : 'Face à un ennemi colossal, refusant d'obéir à l'ordre de repli, London a chargé seul dans un ultime élan de fureur sauvage. Il est mort libre et insoumis.'",
-      "audio": "assets/audio/theme_london.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_8"
-        }
-      ]
-    },
-    "scene_8": {
-      "id": "scene_8",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "PETIT TONNERRE : 'De tous nos deuils, celui-ci reste le plus amère, car il n'a pas l'odeur du sang ou de la guerre, mais celle de la bêtise humaine.'",
-      "audio": "assets/audio/theme_triste_animal.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_9"
-        }
-      ]
-    },
-    "scene_9": {
-      "id": "scene_9",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "PETIT TONNERRE : 'Il a survécu aux embuscades pour finalement s'éteindre de faim alors que nos chariots débordaient de provisions. Une tragédie administrative.'",
-      "audio": "assets/audio/theme_triste_animal.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_10"
-        }
-      ]
-    },
-    "scene_10": {
-      "id": "scene_10",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "BRAISE : 'Kuro, élevé par les sangliers, avait besoin d'une bête capable de s'unir à son esprit pour maximiser ses décoctions. C'est ainsi que Braise a rejoint nos rangs.'",
-      "audio": "assets/audio/theme_braise.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_11"
-        }
-      ]
-    },
-    "scene_11": {
-      "id": "scene_11",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "BRAISE : 'Mais Kuro s'est endormi, Raxx s'est évadé, et le soigneur a fini à la taverne. Pourtant Braise est resté au cœur de l'action, chargeant désormais aux côtés d'Ash.'",
-      "audio": "assets/audio/theme_braise.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_12"
-        }
-      ]
-    },
-    "scene_12": {
-      "id": "scene_12",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "NOX : 'Son lien s'est tissé au sommet d'une montagne battue par les vents. Alors que sa horde nous fonçait dessus, Nox s'est détaché pour devenir le gardien de notre meute.'",
-      "audio": "assets/audio/theme_nox.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_13"
-        }
-      ]
-    },
-    "scene_13": {
-      "id": "scene_13",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "NOX : 'Il a péri une nuit de cueillette de champignons, face à des Loups Fantômes. Fidèle jusqu'au bout, il a lutté contre l'invincible avant de tomber seul dans l'ombre.'",
-      "audio": "assets/audio/theme_nox.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_14"
-        }
-      ]
-    },
-    "scene_14": {
-      "id": "scene_14",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "KAKERA : 'S'il est un colosse dont la chair semble pétrie dans le sang de nos batailles, c'est lui. Kakera signifie \"le Fragment\". Un éclat brut arraché à la fureur du monde.'",
-      "audio": "assets/audio/theme_soleil_couchant.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_15"
-        }
-      ]
-    },
-    "scene_15": {
-      "id": "scene_15",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "KAKERA : 'Ash a apaisé sa sauvagerie solitaire. Aujourd'hui, sa stature immense rassure la troupe. Il est notre mur de fourrure, un titan indéboulonnable qui veille sur nous.'",
-      "audio": "assets/audio/theme_soleil_couchant.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_16"
-        }
-      ]
-    },
-    "scene_16": {
-      "id": "scene_16",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "LES MONTURES : 'Aube et Crépuscule portent dans leur pelage la nuance exacte de notre astre sacré. Le matin flamboyant et le rouge profond du bivouac. Ils guident nos pas.'",
-      "audio": "assets/audio/theme_soleil_couchant.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_17"
-        }
-      ]
-    },
-    "scene_17": {
-      "id": "scene_17",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "LES JOYAUX : 'Rubis et Grenat, gardés bien loin du fracas des batailles pour ne jamais revivre le sort de Strong, tirent nos chariots lourds et font la fierté de la Compagnie. Fin.'",
-      "audio": "assets/audio/theme_soleil_couchant.ogg",
-      "choix": [
-        {
-          "texte": "Suivant",
-          "prochaineSceneId": "scene_18"
-        }
-      ]
-    },
-    "scene_18": {
-      "id": "scene_18",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "Le feu s'éteint doucement, laissant place aux braises rouges sous le ciel étoilé. La Compagnie du Soleil Écarlate s'endort... mais les routes de demain réservent encore bien des légendes. Merci d'avoir joué à cette première chronique !",
-      "audio": "assets/audio/theme_soleil_couchant.ogg",
-      "choix": [
-        {
-          "texte": "Fin du Premier Chapitre",
-          "prochaineSceneId": "menu_principal"
-        }
-      ]
     }
-  }
 }

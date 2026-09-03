@@ -1,7 +1,7 @@
-import {Injectable} from '@angular/core';
+import { Injectable } from '@angular/core';
 
 @Injectable({
-    providedIn: 'root'
+    providedIn: 'root',
 })
 export class AudioPlayer {
     private audioPlayer = new Audio();
@@ -31,8 +31,8 @@ export class AudioPlayer {
         this.audioPlayer.loop = true;
         this.audioPlayer.volume = 0.2;
         this.audioPlayer.load();
-        this.audioPlayer.play().catch((err) =>
-            console.warn("Audio bloqué par les restrictions du navigateur :", err)
-        );
+        this.audioPlayer
+            .play()
+            .catch((err) => console.warn('Audio bloqué par les restrictions du navigateur :', err));
     }
 }
