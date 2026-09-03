@@ -2,94 +2,94 @@
 @use 'tokens/typography' as t;
 
 .menu-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  letter-spacing: t.$letter-spacing-retro;
-
-  .game-title {
-    font-size: 3rem;
-    margin-bottom: 50px;
-    letter-spacing: 4px;
-    text-shadow: 3px 3px 0 $shadow-color;
-  }
-
-  .buttons-list {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    width: 250px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    letter-spacing: t.$letter-spacing-retro;
 
-    .menu-btn {
-      background: #1a1a1a;
-      border: 2px solid $border-color;
-      color: $text-color;
-      padding: 15px;
-      font-family: inherit;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: all 0.2s;
-
-      &:hover:not(:disabled) {
-        background: $text-color;
-        color: $bg-color;
-        border-color: $text-color;
-        transform: scale(1.05);
-      }
-
-      &.disabled {
-        opacity: 0.4;
-        cursor: not-allowed;
-      }
+    .game-title {
+        font-size: 3rem;
+        margin-bottom: 50px;
+        letter-spacing: 4px;
+        text-shadow: 3px 3px 0 $shadow-color;
     }
-  }
 
-  .buttons-lang {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 15px;
-    width: 250px;
-    margin-top: 20px;
+    .buttons-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 250px;
 
-    .menu-btn {
-      flex: 0 0 calc(32% - 7.5px);
-      background: #1a1a1a;
-      border: 2px solid $border-color;
-      color: $text-color;
-      padding: 15px;
-      font-family: inherit;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: all 0.2s;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+        .menu-btn {
+            background: #1a1a1a;
+            border: 2px solid $border-color;
+            color: $text-color;
+            padding: 15px;
+            font-family: inherit;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
 
-      &:hover:not(:disabled) {
-        background: $text-color;
-        color: $bg-color;
-        border-color: $text-color;
-        transform: scale(1.05);
-      }
+            &:hover:not(:disabled) {
+                background: $text-color;
+                color: $bg-color;
+                border-color: $text-color;
+                transform: scale(1.05);
+            }
 
-      &.disabled {
-        opacity: 0.4;
-        cursor: not-allowed;
-      }
+            &.disabled {
+                opacity: 0.4;
+                cursor: not-allowed;
+            }
+        }
     }
-  }
+
+    .buttons-lang {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+        width: 250px;
+        margin-top: 20px;
+
+        .menu-btn {
+            flex: 0 0 calc(32% - 7.5px);
+            background: #1a1a1a;
+            border: 2px solid $border-color;
+            color: $text-color;
+            padding: 15px;
+            font-family: inherit;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover:not(:disabled) {
+                background: $text-color;
+                color: $bg-color;
+                border-color: $text-color;
+                transform: scale(1.05);
+            }
+
+            &.disabled {
+                opacity: 0.4;
+                cursor: not-allowed;
+            }
+        }
+    }
 }
 
 .menu-container.accessible-mode {
-  font-family: t.$font-family-accessible !important;
-  line-height: t.$line-height-accessible !important;
-  letter-spacing: t.$letter-spacing-accessible !important;
+    font-family: t.$font-family-accessible !important;
+    line-height: t.$line-height-accessible !important;
+    letter-spacing: t.$letter-spacing-accessible !important;
 
-  .menu-btn {
-    font-family: inherit;
-  }
+    .menu-btn {
+        font-family: inherit;
+    }
 }

@@ -1,11 +1,11 @@
-import {computed, inject, Injectable, signal} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
-import {AudioPlayer, Histoire, Scene, Typewriter} from '../game';
-import {TranslocoService} from "@jsverse/transloco";
-import {Router} from "@angular/router";
+import { computed, inject, Injectable, signal } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { AudioPlayer, Histoire, Scene, Typewriter } from '../game';
+import { TranslocoService } from '@jsverse/transloco';
+import { Router } from '@angular/router';
 
 @Injectable({
-    providedIn: 'root'
+    providedIn: 'root',
 })
 export class GameService {
     private http = inject(HttpClient);
@@ -45,12 +45,11 @@ export class GameService {
     }
 
     private chargerHistoire(): void {
-
         this.http.get<Histoire>(`assets/data/${this.currentActe()}.json`).subscribe({
             next: (data) => {
                 this.histoire.set(data);
             },
-            error: (err) => console.error(`Erreur JSON : pour ${this.currentActe()}`, err)
+            error: (err) => console.error(`Erreur JSON : pour ${this.currentActe()}`, err),
         });
     }
 
@@ -62,7 +61,6 @@ export class GameService {
     }
 
     public selectionnerChoix(prochaineSceneId: string, choix: string): void {
-
         // 1. CAS PARTICULIER : Si l'ID est vide, c'est le signal de fin d'acte !
         if (!prochaineSceneId) {
             if (choix === '(Bientôt)') {
@@ -89,7 +87,9 @@ export class GameService {
             this.appliquerScene();
             return;
         } else {
-            console.warn(`La scène [${prochaineSceneId}] est introuvable dans l'acte [${this.currentActe()}].`);
+            console.warn(
+                `La scène [${prochaineSceneId}] est introuvable dans l'acte [${this.currentActe()}].`,
+            );
         }
     }
 

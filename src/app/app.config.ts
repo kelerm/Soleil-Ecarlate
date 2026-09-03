@@ -1,15 +1,16 @@
-import {ApplicationConfig, isDevMode, provideZoneChangeDetection} from '@angular/core';
-import {provideRouter} from '@angular/router';
-import {provideHttpClient} from '@angular/common/http';
-import {routes} from './app.routes';
-import {TranslocoHttpLoader} from './transloco-loader';
-import {provideTransloco} from '@jsverse/transloco';
+import { ApplicationConfig, isDevMode, provideZoneChangeDetection } from '@angular/core';
+import { provideRouter } from '@angular/router';
+import { provideHttpClient } from '@angular/common/http';
+import { routes } from './app.routes';
+import { TranslocoHttpLoader } from './transloco-loader';
+import { provideTransloco } from '@jsverse/transloco';
 
 export const appConfig: ApplicationConfig = {
     providers: [
-        provideZoneChangeDetection({eventCoalescing: true}),
+        provideZoneChangeDetection({ eventCoalescing: true }),
         provideRouter(routes),
-        provideHttpClient(), provideHttpClient(), provideTransloco({
+        provideHttpClient(),
+        provideTransloco({
             config: {
                 availableLangs: ['fr', 'en'],
                 defaultLang: 'fr',
@@ -17,7 +18,7 @@ export const appConfig: ApplicationConfig = {
                 reRenderOnLangChange: true,
                 prodMode: !isDevMode(),
             },
-            loader: TranslocoHttpLoader
-        })
-    ]
+            loader: TranslocoHttpLoader,
+        }),
+    ],
 };

@@ -1,0 +1,6 @@
+#______ Dependances ______
+node_modules/
+
+#______ Projet ______
+.angular/
+dist/
