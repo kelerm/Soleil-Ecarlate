@@ -5,11 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-
     "build:itch": "ng build --base-href ./ && npm run zip:itch",
     "zip:itch": "cd dist/soleil-ecarlate && tar -a -c -f ../../soleil-ecarlate.zip *",
-
-    "watch": "ng build --watch --configuration development"
+    "watch": "ng build --watch --configuration development",
+    "format": "prettier --write ."
   },
   "private": true,
   "dependencies": {
@@ -30,6 +29,7 @@
     "@angular-devkit/build-angular": "^20.3.36",
     "@angular/cli": "^20.3.36",
     "@angular/compiler-cli": "^20.3.30",
+    "prettier": "3.9.6",
     "typescript": "~5.8.0"
   }
 }
