@@ -1,6 +1,6 @@
-# Dependencies
+#______ Dependances ______
 node_modules/
 
-# Angular build output
-dist/
+#______ Projet ______
 .angular/
+dist/
