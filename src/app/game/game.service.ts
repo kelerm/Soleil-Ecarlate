@@ -1,8 +1,8 @@
-import { computed, inject, Injectable, signal } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { AudioPlayer, Histoire, Scene, Typewriter } from '../game';
-import { TranslocoService } from '@jsverse/transloco';
-import { Router } from '@angular/router';
+import {computed, inject, Injectable, signal} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import {AudioPlayer, Histoire, Scene, Typewriter} from '../game';
+import {TranslocoService} from '@jsverse/transloco';
+import {Router} from '@angular/router';
 
 @Injectable({
     providedIn: 'root',
@@ -62,7 +62,10 @@ export class GameService {
 
     public selectionnerChoix(prochaineSceneId: string, choix: string): void {
         // 1. CAS PARTICULIER : Si l'ID est vide, c'est le signal de fin d'acte !
+        console.log(choix);
+        console.log(prochaineSceneId);
         if (!prochaineSceneId) {
+            console.log(choix);
             if (choix === 'Fin du Premier Chapitre') {
                 this.router.navigate(['/']);
             }
