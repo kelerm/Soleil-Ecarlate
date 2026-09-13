@@ -7,7 +7,6 @@ node_modules
 #______ Projet ______
 .angular/
 dist/
-package-lock.json
 
 #______ Prod ______
 soleil-ecarlate.zip
