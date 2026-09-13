@@ -74,7 +74,7 @@
     },
     "scene_7": {
       "id": "scene_7",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Dague_Plantee.gif",
       "texte": "C'est là qu'Ash est entré dans le tableau. Le Rogue, celui qui savait écouter, celui que tous adoraient, s'est imposé comme le ciment.",
       "audio": "assets/audio/theme_compagnie.ogg",
       "choix": [
@@ -86,7 +86,7 @@
     },
     "scene_8": {
       "id": "scene_8",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Dague_Plantee.gif",
       "texte": "Il a pris le titre de Lieutenant pour protéger. Et pour sceller la paix, il a fait l'impossible : il a épousé Esh.",
       "audio": "assets/audio/theme_compagnie.ogg",
       "choix": [
@@ -98,7 +98,7 @@
     },
     "scene_9": {
       "id": "scene_9",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Dague_Plantee.gif",
       "texte": "Pendant un temps, ça a marché. Les flèches d'Esh se sont tues. Ash a cru avoir gagné la guerre intérieure.",
       "audio": "assets/audio/theme_compagnie.ogg",
       "choix": [
