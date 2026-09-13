@@ -62,7 +62,7 @@
     },
     "scene_6": {
       "id": "scene_6",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/London.gif",
       "texte": "LONDON : 'Il était le roi de la meute originelle, un loup au pelage d'hiver dont la fierté n'avait d'égale que la férocité. Sa fin fut à l'image de sa vie : indomptable.'",
       "audio": "assets/audio/theme_london.ogg",
       "choix": [
@@ -74,7 +74,7 @@
     },
     "scene_7": {
       "id": "scene_7",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/London.gif",
       "texte": "LONDON : 'Face à un ennemi colossal, refusant d'obéir à l'ordre de repli, London a chargé seul dans un ultime élan de fureur sauvage. Il est mort libre et insoumis.'",
       "audio": "assets/audio/theme_london.ogg",
       "choix": [
