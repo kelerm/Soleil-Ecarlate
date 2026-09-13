@@ -110,7 +110,7 @@
     },
     "scene_10": {
       "id": "scene_10",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Porte_Peste.gif",
       "texte": "Pour fortifier cette paix nouvelle, la Compagnie a ouvert ses rangs à une nouvelle force mystique : Kuro, le Médecin Noir.",
       "audio": "assets/audio/theme_kuro.ogg",
       "choix": [
@@ -122,7 +122,7 @@
     },
     "scene_11": {
       "id": "scene_11",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Porte_Peste.gif",
       "texte": "Kuro avait été élevé par les sangliers. Une enfance sauvage qui lui conférait une volonté de fer... tant qu'il restait éveillé.",
       "audio": "assets/audio/theme_kuro.ogg",
       "choix": [
