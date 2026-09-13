@@ -134,7 +134,7 @@
     },
     "scene_12": {
       "id": "scene_12",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Nox.png",
       "texte": "NOX : 'Son lien s'est tissé au sommet d'une montagne battue par les vents. Alors que sa horde nous fonçait dessus, Nox s'est détaché pour devenir le gardien de notre meute.'",
       "audio": "assets/audio/theme_nox.ogg",
       "choix": [
@@ -146,7 +146,7 @@
     },
     "scene_13": {
       "id": "scene_13",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Nox.png",
       "texte": "NOX : 'Il a péri une nuit de cueillette de champignons, face à des Loups Fantômes. Fidèle jusqu'au bout, il a lutté contre l'invincible avant de tomber seul dans l'ombre.'",
       "audio": "assets/audio/theme_nox.ogg",
       "choix": [
