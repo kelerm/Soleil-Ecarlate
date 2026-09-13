@@ -1,7 +1,7 @@
-import {Injectable, signal} from '@angular/core';
+import { Injectable, signal } from '@angular/core';
 
 @Injectable({
-    providedIn: 'root'
+    providedIn: 'root',
 })
 export class Typewriter {
     public texteAffiche = signal<string>('');
@@ -20,7 +20,7 @@ export class Typewriter {
 
         this.intervalId = setInterval(() => {
             if (index < texte.length) {
-                this.texteAffiche.update(actuel => actuel + texte.charAt(index));
+                this.texteAffiche.update((actuel) => actuel + texte.charAt(index));
                 index++;
             } else {
                 this.terminer();

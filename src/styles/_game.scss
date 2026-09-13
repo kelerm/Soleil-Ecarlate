@@ -1,129 +1,130 @@
 @use 'theme' as *;
 
 .vn-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
 
-  .screen-wrapper {
-    width: 100%;
-    max-width: 512px; // 128px multiplié 4
-    aspect-ratio: 1 / 1;
-    border: 4px solid #333;
-    background: black;
-    overflow: hidden;
+    .screen-wrapper {
+        width: 100%;
+        max-width: 512px; // 128px multiplié 4
+        aspect-ratio: 1 / 1;
+        border: 4px solid #333;
+        background: black;
+        overflow: hidden;
 
-    .pixel-art-scene {
-      width: 100%;
-      height: 100%;
+        .pixel-art-scene {
+            width: 100%;
+            height: 100%;
 
-      // BLOQUE LE LISSAGE DU NAVIGATEUR POUR LE 128x128
-      image-rendering: pixelated;
-    }
-  }
-
-  .dialogue-box {
-    position: relative;
-    width: 100%;
-    max-width: 512px;
-    margin-top: 20px;
-    background: $box-bg;
-    border: 2px solid $text-color;
-    padding: 15px 15px 40px;
-
-    .story-text {
-      font-size: 1.1rem;
-      line-height: 1.5;
-      margin-bottom: 20px;
-      white-space: pre-wrap;
-
-      min-height: 8rem;
-
-      &::after {
-        content: '';
-        display: inline-block; // Permet de donner une taille à l'image
-
-        // 1. Gestion de la taille
-        width: 16px;
-        height: 16px;
-        margin-left: 8px; // espace entre texte et icone
-
-        // 2. Intégration image
-        background-image: url('../assets/images/pixel-art-gnrl/eclat-tipewriter.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-
-        // 3. LA règle d'or pour que le pixel art reste bien net :
-        image-rendering: pixelated;
-
-        // 4. aniomation
-        animation: clignotement 1s infinite ease-in-out;
-      }
-    }
-
-    @keyframes clignotement {
-      0%, 100% {
-        opacity: 0;
-      }
-      50% {
-        opacity: 1;
-      }
-    }
-
-    .choices-container {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-
-      .choice-btn {
-        background: #222;
-        border: 1px solid #555;
-        color: $text-color;
-        padding: 10px;
-        text-align: left;
-        cursor: pointer;
-        font-family: inherit;
-        transition: background 0.2s;
-
-        &:hover {
-          background: #444;
-          border-color: $text-color;
+            // BLOQUE LE LISSAGE DU NAVIGATEUR POUR LE 128x128
+            image-rendering: pixelated;
         }
-      }
     }
 
-    .save-btn-retro {
-      display: flex;
-      align-items: center; /* Aligne le grimoire et le texte verticalement */
-      justify-content: center;
-      margin-top: 10px;
+    .dialogue-box {
+        position: relative;
+        width: 100%;
+        max-width: 512px;
+        margin-top: 20px;
+        background: $box-bg;
+        border: 2px solid $text-color;
+        padding: 15px 15px 40px;
 
-      //background: #ffffff !important;
-      //color: #000000 !important;
+        .story-text {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            white-space: pre-wrap;
 
-      &::before {
-        content: '';
-        display: inline-block;
+            min-height: 8rem;
 
-        // 1. Taille exacte du grimoire
-        width: 24px;
-        height: 24px;
-        margin-right: 12px; // Espace entre le grimoire et ton texte "Sauvegarder..."
+            &::after {
+                content: '';
+                display: inline-block; // Permet de donner une taille à l'image
 
-        // 2. Intégration de l'image
-        background-image: url('../assets/images/pixel-art-gnrl/parchemin-save.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+                // 1. Gestion de la taille
+                width: 16px;
+                height: 16px;
+                margin-left: 8px; // espace entre texte et icone
 
-        // règle d'or pour garder les pixels bien nets
-        image-rendering: pixelated;
-      }
+                // 2. Intégration image
+                background-image: url('../assets/images/pixel-art-gnrl/eclat-tipewriter.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+
+                // 3. LA règle d'or pour que le pixel art reste bien net :
+                image-rendering: pixelated;
+
+                // 4. aniomation
+                animation: clignotement 1s infinite ease-in-out;
+            }
+        }
+
+        @keyframes clignotement {
+            0%,
+            100% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        .choices-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .choice-btn {
+                background: #222;
+                border: 1px solid #555;
+                color: $text-color;
+                padding: 10px;
+                text-align: left;
+                cursor: pointer;
+                font-family: inherit;
+                transition: background 0.2s;
+
+                &:hover {
+                    background: #444;
+                    border-color: $text-color;
+                }
+            }
+        }
+
+        .save-btn-retro {
+            display: flex;
+            align-items: center; /* Aligne le grimoire et le texte verticalement */
+            justify-content: center;
+            margin-top: 10px;
+
+            //background: #ffffff !important;
+            //color: #000000 !important;
+
+            &::before {
+                content: '';
+                display: inline-block;
+
+                // 1. Taille exacte du grimoire
+                width: 24px;
+                height: 24px;
+                margin-right: 12px; // Espace entre le grimoire et ton texte "Sauvegarder..."
+
+                // 2. Intégration de l'image
+                background-image: url('../assets/images/pixel-art-gnrl/parchemin-save.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+
+                // règle d'or pour garder les pixels bien nets
+                image-rendering: pixelated;
+            }
+        }
     }
-  }
 }

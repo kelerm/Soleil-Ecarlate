@@ -1,17 +1,16 @@
-import {Component, inject} from '@angular/core';
-import {Router} from '@angular/router';
-import {AccessibilityService, GameService, SaveService} from '../game';
-import {TranslocoModule, TranslocoService} from '@jsverse/transloco';
-import {CommonModule} from '@angular/common';
+import { Component, inject } from '@angular/core';
+import { Router } from '@angular/router';
+import { AccessibilityService, GameService, SaveService } from '../game';
+import { TranslocoModule, TranslocoService } from '@jsverse/transloco';
+import { CommonModule } from '@angular/common';
 
 @Component({
     selector: 'app-menu',
     standalone: true,
     imports: [CommonModule, TranslocoModule],
     templateUrl: './menu.html',
-    styleUrls: []
+    styleUrls: [],
 })
-
 export class MenuComponent {
     private readonly accessibilityService = inject(AccessibilityService);
     readonly accessibleMode = this.accessibilityService.isActive;

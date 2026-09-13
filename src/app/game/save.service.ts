@@ -1,4 +1,4 @@
-import {Injectable} from '@angular/core';
+import { Injectable } from '@angular/core';
 
 export interface SaveState {
     acte: string;
@@ -6,7 +6,7 @@ export interface SaveState {
 }
 
 @Injectable({
-    providedIn: 'root'
+    providedIn: 'root',
 })
 export class SaveService {
     private readonly SAVE_KEY = 'kinetic_novel_save';
@@ -22,7 +22,7 @@ export class SaveService {
         try {
             return JSON.parse(data) as SaveState;
         } catch (e) {
-            console.error("Erreur lors de la lecture de la sauvegarde", e);
+            console.error('Erreur lors de la lecture de la sauvegarde', e);
             return null;
         }
     }

@@ -74,21 +74,19 @@ npm run build
 
 Les fichiers optimisés seront générés dans `dist/soleil-ecarlate/browser/`.
 
-
 ## 🚀 Build pour itch.io
 
 Pour tester ou publier le jeu sur itch.io et de générer directement l'archive prête à l'envoi.
 
 Pour lancer le build et créer le ZIP :
+
 ```bash
 npm run build:itch
 ```
 
 Cela compresse automatiquement le contenu du dossier `dist/soleil-ecarlate/browser` dans un fichier `soleil-ecarlate.zip` à la racine du projet.
 
-
-
 ## ⚖️ Licence
 
-* **Code source :** Open source (Faites-vous plaisir ! - License MIT).
-* **Graphismes (Pixel art) & Musiques (8-bits) :** Pas libres de droits. Ca m'a pris trop de temps.
+- **Code source :** Open source (Faites-vous plaisir ! - License MIT).
+- **Graphismes (Pixel art) & Musiques (8-bits) :** Pas libres de droits. Ca m'a pris trop de temps.
