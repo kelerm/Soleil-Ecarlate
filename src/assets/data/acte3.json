@@ -110,7 +110,7 @@
     },
     "scene_10": {
       "id": "scene_10",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Braise.png",
       "texte": "BRAISE : 'Kuro, élevé par les sangliers, avait besoin d'une bête capable de s'unir à son esprit pour maximiser ses décoctions. C'est ainsi que Braise a rejoint nos rangs.'",
       "audio": "assets/audio/theme_braise.ogg",
       "choix": [
@@ -122,7 +122,7 @@
     },
     "scene_11": {
       "id": "scene_11",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Braise.png",
       "texte": "BRAISE : 'Mais Kuro s'est endormi, Raxx s'est évadé, et le soigneur a fini à la taverne. Pourtant Braise est resté au cœur de l'action, chargeant désormais aux côtés d'Ash.'",
       "audio": "assets/audio/theme_braise.ogg",
       "choix": [
