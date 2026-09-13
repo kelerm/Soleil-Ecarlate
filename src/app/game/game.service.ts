@@ -63,7 +63,7 @@ export class GameService {
     public selectionnerChoix(prochaineSceneId: string, choix: string): void {
         // 1. CAS PARTICULIER : Si l'ID est vide, c'est le signal de fin d'acte !
         if (!prochaineSceneId) {
-            if (choix === '(Bientôt)') {
+            if (choix === 'Fin du Premier Chapitre') {
                 this.router.navigate(['/']);
             }
             // On extrait le numéro de l'acte actuel (ex: "acte1" -> 1)
