@@ -134,7 +134,7 @@
     },
     "scene_12": {
       "id": "scene_12",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Drame.gif",
       "texte": "Mais la nature ne change pas si facilement. L'instinct le plus dévastateur d'Esh s'est éveillé à nouveau : celui d'une implacable tireuse d'élite.",
       "audio": "assets/audio/theme_drame.ogg",
       "choix": [
@@ -146,7 +146,7 @@
     },
     "scene_13": {
       "id": "scene_13",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Drame.gif",
       "texte": "Dans un geste qui semblait presque délibéré, elle a braqué cette nouvelle puissance sur Lilith. Deux fois. Pas par erreur. Pas par accident.",
       "audio": "assets/audio/theme_drame.ogg",
       "choix": [
@@ -158,7 +158,7 @@
     },
     "scene_14": {
       "id": "scene_14",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/scenes/Drame.gif",
       "texte": "Le résultat fut une ironie cruelle : Esh, l'agresseuse, devint encore plus forte. Et Lilith, la victime, fut marquée par le sceau d'un épuisement profond.",
       "audio": "assets/audio/theme_drame.ogg",
       "choix": [
