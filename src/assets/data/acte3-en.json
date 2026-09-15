@@ -1,0 +1,220 @@
+{
+  "acte3": {
+    "scene_1": {
+      "id": "scene_1",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "As night envelops the camp and the mercenaries' tensions finally settle in the warmth of the fire, looks turn towards those who share their wild life.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_2"
+        }
+      ]
+    },
+    "scene_2": {
+      "id": "scene_2",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Around the fire, they remember the first steps, forgotten battles, and the sacrifice of their fanged, hooved, and clawed companions. Here are their stories.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_3"
+        }
+      ]
+    },
+    "scene_3": {
+      "id": "scene_3",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "STRONG: 'He was the very foundation of our march, a rock of pure muscle and devotion, guiding our wagons through the darkness and the worst mires of the world.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_4"
+        }
+      ]
+    },
+    "scene_4": {
+      "id": "scene_4",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "STRONG: 'That day, an arrow pierced the air, doomed by Esh's unstable bow. This stray shot, meant to consume the enemy, struck the heart of our first steed.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_5"
+        }
+      ]
+    },
+    "scene_5": {
+      "id": "scene_5",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "STRONG: 'By spilling our ally's blood, Strong's fire was brutally extinguished. This sacrifice broke the troop, ignited Lilith's resentment, and sealed Esh's renunciation.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_6"
+        }
+      ]
+    },
+    "scene_6": {
+      "id": "scene_6",
+      "image": "assets/images/scenes/London.gif",
+      "texte": "LONDON: 'He was the king of the original pack, a winter-furred wolf whose pride was matched only by his ferocity. His end was just like his life: indomptable.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_7"
+        }
+      ]
+    },
+    "scene_7": {
+      "id": "scene_7",
+      "image": "assets/images/scenes/London.gif",
+      "texte": "LONDON: 'Facing a colossal enemy, refusing to obey the retreat order, London charged alone in a final burst of wild fury. He died free and rebellious.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_8"
+        }
+      ]
+    },
+    "scene_8": {
+      "id": "scene_8",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "LITTLE THUNDER: 'Of all our losses, this one remains the most bitter, for it does not smell of blood or war, but of human stupidity.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_9"
+        }
+      ]
+    },
+    "scene_9": {
+      "id": "scene_9",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "LITTLE THUNDER: 'He survived ambushes only to eventually starve to death while our wagons were overflowing with supplies. An administrative tragedy.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_10"
+        }
+      ]
+    },
+    "scene_10": {
+      "id": "scene_10",
+      "image": "assets/images/scenes/Braise.png",
+      "texte": "EMBER: 'Kuro, raised by wild boars, needed a beast capable of bonding with his spirit to maximize his concoctions. That is how Ember joined our ranks.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_11"
+        }
+      ]
+    },
+    "scene_11": {
+      "id": "scene_11",
+      "image": "assets/images/scenes/Braise.png",
+      "texte": "EMBER: 'But Kuro fell asleep, Raxx escaped, and the healer ended up at the tavern. Yet Ember stayed in the heart of the action, now charging alongside Ash.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_12"
+        }
+      ]
+    },
+    "scene_12": {
+      "id": "scene_12",
+      "image": "assets/images/scenes/Nox.png",
+      "texte": "NOX: 'His bond was forged atop a windswept mountain. As his horde rushed toward us, Nox broke away to become the guardian of our pack.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_13"
+        }
+      ]
+    },
+    "scene_13": {
+      "id": "scene_13",
+      "image": "assets/images/scenes/Nox.png",
+      "texte": "NOX: 'He perished one night while foraging for mushrooms, facing Ghost Wolves. Faithful to the end, he fought the invincible before falling alone in the shadows.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_14"
+        }
+      ]
+    },
+    "scene_14": {
+      "id": "scene_14",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "KAKERA: 'If there is a colossus whose flesh seems kneaded in the blood of our battles, it is him. Kakera means \"the Fragment\". A raw shard torn from the world's fury.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_15"
+        }
+      ]
+    },
+    "scene_15": {
+      "id": "scene_15",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "KAKERA: 'Ash softened his solitary wildness. Today, his immense stature reassures the troop. He is our wall of fur, an unshakeable titan watching over us.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_16"
+        }
+      ]
+    },
+    "scene_16": {
+      "id": "scene_16",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "THE MOUNTS: 'Dawn and Dusk carry in their coats the exact shade of our sacred star. The flamboyant morning and the deep red of the bivouac. They guide our steps.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_17"
+        }
+      ]
+    },
+    "scene_17": {
+      "id": "scene_17",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "THE JEWELS: 'Ruby and Garnet, kept far away from the din of battle to never relive Strong's fate, pull our heavy wagons and are the pride of the Company.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Next",
+          "prochaineSceneId": "scene_18"
+        }
+      ]
+    },
+    "scene_18": {
+      "id": "scene_18",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "The fire slowly goes out, leaving room for red embers under the starry sky. The Scarlet Sun Company falls asleep... but tomorrow's roads still hold many legends. Thank you for playing this first chronicle!",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "End",
+          "prochaineSceneId": ""
+        }
+      ]
+    }
+  }
+}

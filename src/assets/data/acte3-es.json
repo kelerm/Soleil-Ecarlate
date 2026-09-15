@@ -1,0 +1,220 @@
+{
+  "acte3": {
+    "scene_1": {
+      "id": "scene_1",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Mientras la noche envuelve el campamento y las tensiones de los mercenarios se calman por fin al calor del fuego, las miradas se dirigen hacia aquellos que comparten su vida salvaje.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_2"
+        }
+      ]
+    },
+    "scene_2": {
+      "id": "scene_2",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Alrededor del fuego, recuerdan los primeros pasos, los combates olvidados y el sacrificio de los compañeros de colmillos, cascos y garras. Aquí están sus historias.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_3"
+        }
+      ]
+    },
+    "scene_3": {
+      "id": "scene_3",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "STRONG: 'Él fue el primer cimiento de nuestra marcha, una roca de músculo y pura devoción, guiando nuestros carros a través de las tinieblas y los peores lodazales del mundo.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_4"
+        }
+      ]
+    },
+    "scene_4": {
+      "id": "scene_4",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "STRONG: 'Ese día, una flecha hendió el aire, condenada por el arco inestable de Esh. Ese proyectil perdido, destinado a consumir al enemigo, golpeó el corazón de nuestro primer corcel.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_5"
+        }
+      ]
+    },
+    "scene_5": {
+      "id": "scene_5",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "STRONG: 'Al derramar la sangre de nuestro aliado, el fuego de Strong se apagó brutalmente. Este sacrificio destrozó a la tropa, encendió el rencor de Lilith y selló la renuncia de Esh.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_6"
+        }
+      ]
+    },
+    "scene_6": {
+      "id": "scene_6",
+      "image": "assets/images/scenes/London.gif",
+      "texte": "LONDON: 'Era el rey de la manada original, un lobo de pelaje invernal cuya soberbia solo era igualada por su ferocidad. Su final fue el reflejo de su vida: indomable.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_7"
+        }
+      ]
+    },
+    "scene_7": {
+      "id": "scene_7",
+      "image": "assets/images/scenes/London.gif",
+      "texte": "LONDON: 'Frente a un enemigo colosal, negándose a obedecer la orden de retirada, London cargó solo en un último impulso de furia salvaje. Murió libre e insumiso.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_8"
+        }
+      ]
+    },
+    "scene_8": {
+      "id": "scene_8",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "PEQUEÑO TRUENO: 'De todos nuestros lutos, este sigue siendo el más amargo, ya que no huele a sangre ni a guerra, sino a estupidez humana.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_9"
+        }
+      ]
+    },
+    "scene_9": {
+      "id": "scene_9",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "PEQUEÑO TRUENO: 'Sobrevivió a las emboscadas para finalmente morir de hambre mientras nuestros carros rebosaban de provisiones. Una tragedia administrativa.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_10"
+        }
+      ]
+    },
+    "scene_10": {
+      "id": "scene_10",
+      "image": "assets/images/scenes/Braise.png",
+      "texte": "BRASA: 'Kuro, criado por jabalíes, necesitaba una bestia capaz de unirse a su espíritu para maximizar sus deccociones. Así fue como Brasa se unió a nuestras filas.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_11"
+        }
+      ]
+    },
+    "scene_11": {
+      "id": "scene_11",
+      "image": "assets/images/scenes/Braise.png",
+      "texte": "BRASA: 'Pero Kuro se durmió, Raxx se escapó y el sanador terminó en la taberna. Sin embargo, Brasa permaneció en el corazón de la acción, cargando ahora al lado de Ash.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_12"
+        }
+      ]
+    },
+    "scene_12": {
+      "id": "scene_12",
+      "image": "assets/images/scenes/Nox.png",
+      "texte": "NOX: 'Su vínculo se tejió en la cima de una montaña azotada por el viento. Mientras su horda se abalanzaba sobre nosotros, Nox se apartó para convertirse en el guardián de nuestra manada.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_13"
+        }
+      ]
+    },
+    "scene_13": {
+      "id": "scene_13",
+      "image": "assets/images/scenes/Nox.png",
+      "texte": "NOX: 'Pereció una noche recolectando setas, frente a Lobos Fantasma. Fiel hasta el final, luchó contra lo invencible antes de caer solo en la sombra.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_14"
+        }
+      ]
+    },
+    "scene_14": {
+      "id": "scene_14",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "KAKERA: 'Si hay un coloso cuya carne parece moldeada en la sangre de nuestras batallas, es él. Kakera significa \"el Fragmento\". Una astilla bruta arrancada de la furia del mundo.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_15"
+        }
+      ]
+    },
+    "scene_15": {
+      "id": "scene_15",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "KAKERA: 'Ash calmó su salvajismo solitario. Hoy, su inmensa estatura tranquiliza a la tropa. Es nuestro muro de pelaje, un titán inamovible que vela por nosotros.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_16"
+        }
+      ]
+    },
+    "scene_16": {
+      "id": "scene_16",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "LAS MONTURAS: 'Alba y Ocaso llevan en su pelaje el matiz exacto de nuestro astro sagrado. La mañana resplandeciente y el rojo profundo del vivac. Ellos guían nuestros pasos.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_17"
+        }
+      ]
+    },
+    "scene_17": {
+      "id": "scene_17",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "LOS JAYOS: 'Rubí y Granate, mantenidos muy lejos del estruendo de las batallas para jamás revivir el destino de Strong, tiran de nuestros carros pesados y son el orgullo de la Compañía.'",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_18"
+        }
+      ]
+    },
+    "scene_18": {
+      "id": "scene_18",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "El fuego se apaga lentamente, dejando paso a las brasas rojas bajo el cielo estrellado. La Compañía del Sol Escarlata se duerme... pero los caminos del mañana aún reservan muchas leyendas. ¡Gracias por jugar a esta primera crónica!",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Fin",
+          "prochaineSceneId": ""
+        }
+      ]
+    }
+  }
+}

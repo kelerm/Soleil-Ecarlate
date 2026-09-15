@@ -1,0 +1,196 @@
+{
+  "acte2": {
+    "scene_1": {
+      "id": "scene_1",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "El tiempo ha pasado y el caos terminó por forjar nuevas alianzas.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_2"
+        }
+      ]
+    },
+    "scene_2": {
+      "id": "scene_2",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Contra todo pronóstico, la tormenta entre Lilith y Esh se ha calmado. El resentimiento ha dejado paso a una extraña sororidad de supervivientes.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_3"
+        }
+      ]
+    },
+    "scene_3": {
+      "id": "scene_3",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Para sellar la cohesión de las cumbres, Lilith unió su destino al de Kelerm. Hoy se encuentra mucho mejor, recuperada de su agotamiento.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_4"
+        }
+      ]
+    },
+    "scene_4": {
+      "id": "scene_4",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Pero el mundo exterior sigue imponiendo su absurda crueldad. La tragedia golpeó a la manada donde nadie lo esperaba.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_5"
+        }
+      ]
+    },
+    "scene_5": {
+      "id": "scene_5",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Pequeño Trueno, uno de los ponis de la tropa, murió en el camino, víctima de una hambruna brutal e inexplicable.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_6"
+        }
+      ]
+    },
+    "scene_6": {
+      "id": "scene_6",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "La ironía fue total: los carros rebosaban de provisiones. Una simple negligencia de intendencia y una vida se desvaneció.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_7"
+        }
+      ]
+    },
+    "scene_7": {
+      "id": "scene_7",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Este fallo en la vigilancia no tardó en ser aprovechado. Aprovechando el sueño profundo de Kuro, el forajido Raxx se escapó.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_8"
+        }
+      ]
+    },
+    "scene_8": {
+      "id": "scene_8",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Esta fuga sumió a Ash en una rabia negra. Vuelto tiránico y sospechoso, el teniente juró que no lo volverían a pillar desprevenido.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_9"
+        }
+      ]
+    },
+    "scene_9": {
+      "id": "scene_9",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "La sentencia de Kuro fue inmediata: enviado a trabajar duro en la taberna del Equinoccio Granate para robar discretamente a los clientes adinerados.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_10"
+        }
+      ]
+    },
+    "scene_10": {
+      "id": "scene_10",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Para cubrir las bajas, se reclutaron nuevas caras. Entre ellas Zek, un ballestero de edad madura y temperamento taciturno.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_11"
+        }
+      ]
+    },
+    "scene_11": {
+      "id": "scene_11",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Un pescador acostumbrado a la calma de las líneas de agua se vio arrojado al fragor del combate, convirtiéndose instantáneamente en nuestro francotirador.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_12"
+        }
+      ]
+    },
+    "scene_12": {
+      "id": "scene_12",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Zek pronto fue ascendido a supervisor de la taberna. Pero con amabilidad, se consolidó como una sombra protectora para Kuro entre bastidores.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_13"
+        }
+      ]
+    },
+    "scene_13": {
+      "id": "scene_13",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "texte": "La otra recluta, Akane, se convirtió en el auténtico rayo de sol de la tropa. Llevando con orgullo su título de Alma Escarlata.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_14"
+        }
+      ]
+    },
+    "scene_14": {
+      "id": "scene_14",
+      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "texte": "Su bondad rompió las corazas de los más endurecidos, e incluso los depredadores de la Manada vienen a buscar sus caricias en el vivac.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_15"
+        }
+      ]
+    },
+    "scene_15": {
+      "id": "scene_15",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "En este ambiente, encadenada en el centro del campamento, la saboteadora capturada Lyss hace su entrada bajo la mirada gélida de Ash.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Siguiente",
+          "prochaineSceneId": "scene_16"
+        }
+      ]
+    },
+    "scene_16": {
+      "id": "scene_16",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Alrededor del fuego, bajo la luz rojiza, los Adeptos esperan el momento en que Lyss acepte que le rompan las cadenas para sobrevivir a su lado.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Acto 3",
+          "prochaineSceneId": ""
+        }
+      ]
+    }
+  }
+}
