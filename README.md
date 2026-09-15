@@ -89,4 +89,4 @@ Cela compresse automatiquement le contenu du dossier `dist/soleil-ecarlate/brows
 ## ⚖️ Licence
 
 - **Code source :** Open source (Faites-vous plaisir ! - License MIT).
-- **Graphismes (Pixel art) , Musiques (8-bits) & textes :** Pas libres de droits. Ca m'a pris trop de temps 😎.
+- **Graphismes (Pixel art) , Musiques (8-bits) & textes :** Pas libres de droits 🚫. _Ca m'a pris trop de temps_ 😎.
