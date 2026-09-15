@@ -1,0 +1,11 @@
+{
+  "menu": {
+    "guilde": "Soleil Ecarlate",
+    "new_game": "NUEVA PARTIDA",
+    "continue": "CONTINUAR",
+    "load": "CARGAR"
+  },
+  "transitions": {
+    "loading": "Abriendo grimorio..."
+  }
+}

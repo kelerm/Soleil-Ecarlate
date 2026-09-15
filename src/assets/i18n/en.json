@@ -1,11 +1,11 @@
 {
-    "menu": {
-        "guilde": "Scarlet Sun",
-        "new_game": "NEW GAME (Soon)",
-        "continue": "CONTINUE (Soon)",
-        "load": "LOAD (Soon)"
-    },
-    "transitions": {
-        "loading": "Opening grimoire..."
-    }
+  "menu": {
+    "guilde": "Soleil Ecarlate",
+    "new_game": "NEW GAME",
+    "continue": "CONTINUE",
+    "load": "LOAD"
+  },
+  "transitions": {
+    "loading": "Opening grimoire..."
+  }
 }
