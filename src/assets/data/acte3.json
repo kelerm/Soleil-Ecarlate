@@ -195,7 +195,7 @@
     "scene_17": {
       "id": "scene_17",
       "image": "assets/images/scenes/Akane_Kakera.gif",
-      "texte": "LES JOYAUX : 'Rubis et Grenat, gardés bien loin du fracas des batailles pour ne jamais revivre le sort de Strong, tirent nos chariots lourds et font la fierté de la Compagnie. Fin.'",
+      "texte": "LES JOYAUX : 'Rubis et Grenat, gardés bien loin du fracas des batailles pour ne jamais revivre le sort de Strong, tirent nos chariots lourds et font la fierté de la Compagnie.'",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
         {
