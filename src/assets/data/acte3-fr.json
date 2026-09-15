@@ -211,7 +211,7 @@
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
         {
-          "texte": "Fin du Premier Chapitre",
+          "texte": "Fin",
           "prochaineSceneId": ""
         }
       ]

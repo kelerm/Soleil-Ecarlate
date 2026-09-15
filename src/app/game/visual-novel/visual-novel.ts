@@ -19,10 +19,9 @@ export class VisualNovelComponent {
         const sceneActuelle = this.scene();
         if (sceneActuelle) {
             this.saveService.sauvegarder({
-                acte: this.gameService.getCurrentActe(), // Voir note ci-dessous si besoin de l'exposer
+                acte: this.gameService.getCurrentActe(), // Voir si besoin de l'exposer
                 sceneId: sceneActuelle.id,
             });
-            console.log('Partie enregistrée !');
         }
     }
 }

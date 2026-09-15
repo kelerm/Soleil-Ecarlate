@@ -16,7 +16,6 @@ export class GameService {
     // Injection services spécialisés
     private audioService = inject(AudioPlayer);
     public typewriterService = inject(Typewriter);
-    private transloco = inject(TranslocoService);
 
     private histoire = signal<Histoire | null>(null);
     private currentActe = signal<string>('acte1');
@@ -47,9 +46,9 @@ export class GameService {
 
     private chargerHistoire(): void {
 
-        this.transloco.langChanges$.pipe(
+        this.translocoService.langChanges$.pipe(
             switchMap(() => {
-                const langSuffix = "-" + this.transloco.getActiveLang();
+                const langSuffix = "-" + this.translocoService.getActiveLang();
                 const url = `assets/data/${this.currentActe()}${langSuffix}.json`;
 
                 return this.http.get<Histoire>(url);
@@ -71,11 +70,9 @@ export class GameService {
 
     public selectionnerChoix(prochaineSceneId: string, choix: string): void {
         // 1. CAS PARTICULIER : Si l'ID est vide, c'est le signal de fin d'acte !
-        console.log(choix);
-        console.log(prochaineSceneId);
         if (!prochaineSceneId) {
-            console.log(choix);
-            if (choix === 'Fin du Premier Chapitre') {
+            // Todo attention sujet a erreur, voir pour une meilleure gestion de detection de fin.
+            if (choix === 'Fin' || choix === 'End') {
                 this.router.navigate(['/']);
             }
             // On extrait le numéro de l'acte actuel (ex: "acte1" -> 1)
