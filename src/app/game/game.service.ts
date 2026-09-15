@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import {AudioPlayer, Histoire, Scene, Typewriter} from '../game';
 import {TranslocoService} from '@jsverse/transloco';
 import {Router} from '@angular/router';
+import {switchMap} from "rxjs";
 
 @Injectable({
     providedIn: 'root',
@@ -15,6 +16,7 @@ export class GameService {
     // Injection services spécialisés
     private audioService = inject(AudioPlayer);
     public typewriterService = inject(Typewriter);
+    private transloco = inject(TranslocoService);
 
     private histoire = signal<Histoire | null>(null);
     private currentActe = signal<string>('acte1');
@@ -30,7 +32,6 @@ export class GameService {
             return data[acteActuel][sceneActuelle] || null;
         }
 
-        return null;
     });
 
     constructor() {
@@ -45,11 +46,19 @@ export class GameService {
     }
 
     private chargerHistoire(): void {
-        this.http.get<Histoire>(`assets/data/${this.currentActe()}.json`).subscribe({
+
+        this.transloco.langChanges$.pipe(
+            switchMap(() => {
+                const langSuffix = "-" + this.transloco.getActiveLang();
+                const url = `assets/data/${this.currentActe()}${langSuffix}.json`;
+
+                return this.http.get<Histoire>(url);
+            })
+        ).subscribe({
             next: (data) => {
                 this.histoire.set(data);
             },
-            error: (err) => console.error(`Erreur JSON : pour ${this.currentActe()}`, err),
+            error: (err) => console.error(`Erreur JSON pour ${this.currentActe()}`, err),
         });
     }
 
@@ -78,7 +87,7 @@ export class GameService {
             this.currentActe.set(nomProchainActe);
             this.currentSceneId.set('scene_1'); // On reset à la première scène
 
-            // On recharge le nouveau fichier JSON (ex: assets/data/acte2.json)
+            // On recharge le nouveau fichier JSON (ex: assets/data/acte2-fr.json)
             this.chargerHistoire();
             return;
         }
