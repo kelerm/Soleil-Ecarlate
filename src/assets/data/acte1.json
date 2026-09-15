@@ -2,7 +2,7 @@
   "acte1": {
     "scene_1": {
       "id": "scene_1",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "Ils n'étaient pas des héros. Ils n'avaient pas de destinée commune, ni de prophétie à accomplir.",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -14,7 +14,7 @@
     },
     "scene_2": {
       "id": "scene_2",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "Ils étaient juste quatre âmes brisées qui avaient décidé de survivre ensemble dans un monde cruel...",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -26,7 +26,7 @@
     },
     "scene_3": {
       "id": "scene_3",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "...et c'est dans cette simple survie que leur histoire a commencé.",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -38,7 +38,7 @@
     },
     "scene_4": {
       "id": "scene_4",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "Au début, tout était chaos. Esh, la chasseresse, était une flamme incontrôlable.",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -50,7 +50,7 @@
     },
     "scene_5": {
       "id": "scene_5",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "Dans les premiers jours, elle avait dégainé son arc non pas contre un ennemi, mais contre Kelerm, la brute qui deviendrait leur chef.",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -62,7 +62,7 @@
     },
     "scene_6": {
       "id": "scene_6",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "Puis, c'était au tour de Lilith, la protectrice, d'être la cible de ces flèches imprévisibles. Le groupe tremblait, prêt à éclater.",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -170,7 +170,7 @@
     },
     "scene_15": {
       "id": "scene_15",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "Et au milieu de tout cela, il y avait Kelerm. Le chef. Il était là, assis à l'écart, regardant le feu. Il ne disait rien. C'était le silence au milieu du cri.",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -182,7 +182,7 @@
     },
     "scene_16": {
       "id": "scene_16",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "Aujourd'hui, la troupe avance. Ce ne sont pas des héros. Ce sont des mercenaires. Et leur aventure est une lutte quotidienne pour rester ensemble.",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [

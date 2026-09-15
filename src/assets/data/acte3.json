@@ -2,7 +2,7 @@
   "acte3": {
     "scene_1": {
       "id": "scene_1",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "Alors que la nuit enveloppe le campement et que les tensions des mercenaires s'apaisent enfin dans la chaleur du feu, les regards se tournent vers ceux qui partagent leur vie sauvage.",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -14,7 +14,7 @@
     },
     "scene_2": {
       "id": "scene_2",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "Autour du feu, on se rappelle les premiers pas, les combats oubliés et le sacrifice des compagnons à crocs, à sabots et à griffes. Voici leurs histoires.",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -26,7 +26,7 @@
     },
     "scene_3": {
       "id": "scene_3",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "STRONG : 'Il fut la première fondation de notre marche, un roc de muscles et de dévotion pure, guidant nos chariots à travers les ténèbres et les pires bourbiers du monde.'",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -38,7 +38,7 @@
     },
     "scene_4": {
       "id": "scene_4",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "STRONG : 'Ce jour-là, une flèche a fendu l'air, condamnée par l'arc instable d'Esh. Ce trait perdu, destiné à consumer l'ennemi, est venu frapper le cœur de notre premier destrier.'",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -50,7 +50,7 @@
     },
     "scene_5": {
       "id": "scene_5",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "STRONG : 'En versant le sang de notre allié, le feu de Strong s'est brutalement éteint. Ce sacrifice a brisé la troupe, allumé la rancune de Lilith et scellé le renoncement d'Esh.'",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -86,7 +86,7 @@
     },
     "scene_8": {
       "id": "scene_8",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "PETIT TONNERRE : 'De tous nos deuils, celui-ci reste le plus amère, car il n'a pas l'odeur du sang ou de la guerre, mais celle de la bêtise humaine.'",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -98,7 +98,7 @@
     },
     "scene_9": {
       "id": "scene_9",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "PETIT TONNERRE : 'Il a survécu aux embuscades pour finalement s'éteindre de faim alors que nos chariots débordaient de provisions. Une tragédie administrative.'",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -158,7 +158,7 @@
     },
     "scene_14": {
       "id": "scene_14",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "KAKERA : 'S'il est un colosse dont la chair semble pétrie dans le sang de nos batailles, c'est lui. Kakera signifie \"le Fragment\". Un éclat brut arraché à la fureur du monde.'",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -170,7 +170,7 @@
     },
     "scene_15": {
       "id": "scene_15",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "KAKERA : 'Ash a apaisé sa sauvagerie solitaire. Aujourd'hui, sa stature immense rassure la troupe. Il est notre mur de fourrure, un titan indéboulonnable qui veille sur nous.'",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -182,7 +182,7 @@
     },
     "scene_16": {
       "id": "scene_16",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "LES MONTURES : 'Aube et Crépuscule portent dans leur pelage la nuance exacte de notre astre sacré. Le matin flamboyant et le rouge profond du bivouac. Ils guident nos pas.'",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -194,7 +194,7 @@
     },
     "scene_17": {
       "id": "scene_17",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "LES JOYAUX : 'Rubis et Grenat, gardés bien loin du fracas des batailles pour ne jamais revivre le sort de Strong, tirent nos chariots lourds et font la fierté de la Compagnie.'",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
@@ -206,7 +206,7 @@
     },
     "scene_18": {
       "id": "scene_18",
-      "image": "assets/images/scenes/Akane_Kakera.gif",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
       "texte": "Le feu s'éteint doucement, laissant place aux braises rouges sous le ciel étoilé. La Compagnie du Soleil Écarlate s'endort... mais les routes de demain réservent encore bien des légendes. Merci d'avoir joué à cette première chronique !",
       "audio": "assets/audio/SoleilEcarlate.ogg",
       "choix": [
