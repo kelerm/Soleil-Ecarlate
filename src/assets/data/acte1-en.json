@@ -1,0 +1,196 @@
+{
+  "acte1": {
+    "scene_1": {
+      "id": "scene_1",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "They were not heroes. They had no shared destiny, nor any prophecy to fulfill.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_2"
+        }
+      ]
+    },
+    "scene_2": {
+      "id": "scene_2",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "They were just four broken souls who had decided to survive together in a cruel world...",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_3"
+        }
+      ]
+    },
+    "scene_3": {
+      "id": "scene_3",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "...and it was in this simple survival that their story began.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_4"
+        }
+      ]
+    },
+    "scene_4": {
+      "id": "scene_4",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "In the beginning, all was chaos. Esh, the huntress, was an uncontrollable flame.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_5"
+        }
+      ]
+    },
+    "scene_5": {
+      "id": "scene_5",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "In the early days, she had drawn her bow not against an enemy, but against Kelerm, the brute who would become their leader.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_6"
+        }
+      ]
+    },
+    "scene_6": {
+      "id": "scene_6",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Then, it was Lilith’s turn, the protector, to be the target of those unpredictable arrows. The group was trembling, on the verge of shattering.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_7"
+        }
+      ]
+    },
+    "scene_7": {
+      "id": "scene_7",
+      "image": "assets/images/scenes/Dague_Plantee.gif",
+      "texte": "That’s where Ash entered the picture. The Rogue, the one who knew how to listen, the one everyone adored—stepped up as the glue that held it all together.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_8"
+        }
+      ]
+    },
+    "scene_8": {
+      "id": "scene_8",
+      "image": "assets/images/scenes/Dague_Plantee.gif",
+      "texte": "He took the title of Lieutenant to protect. And to seal the peace, he did the impossible: he married Esh.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_9"
+        }
+      ]
+    },
+    "scene_9": {
+      "id": "scene_9",
+      "image": "assets/images/scenes/Dague_Plantee.gif",
+      "texte": "For a time, it worked. Esh’s arrows fell silent. Ash believed he had won the inner war.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_10"
+        }
+      ]
+    },
+    "scene_10": {
+      "id": "scene_10",
+      "image": "assets/images/scenes/Porte_Peste.gif",
+      "texte": "To strengthen this newfound peace, the Company opened its ranks to a new mystical force: Kuro, the Black Doctor.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_11"
+        }
+      ]
+    },
+    "scene_11": {
+      "id": "scene_11",
+      "image": "assets/images/scenes/Porte_Peste.gif",
+      "texte": "Kuro had been raised by wild boars. A wild upbringing that gave him an iron will... as long as he stayed awake.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_12"
+        }
+      ]
+    },
+    "scene_12": {
+      "id": "scene_12",
+      "image": "assets/images/scenes/Drame.gif",
+      "texte": "But nature does not change so easily. Esh’s most devastating instinct has reawakened: that of a relentless sharpshooter.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_13"
+        }
+      ]
+    },
+    "scene_13": {
+      "id": "scene_13",
+      "image": "assets/images/scenes/Drame.gif",
+      "texte": "In a move that seemed almost deliberate, she turned this new power on Lilith. Twice. Not by mistake. Not by accident.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_14"
+        }
+      ]
+    },
+    "scene_14": {
+      "id": "scene_14",
+      "image": "assets/images/scenes/Drame.gif",
+      "texte": "The result was a cruel irony: Esh, the aggressor, grew even stronger. And Lilith, the victim, was marked by the seal of profound exhaustion.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_15"
+        }
+      ]
+    },
+    "scene_15": {
+      "id": "scene_15",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "And in the midst of it all, there was Kelerm. The leader. He was there, sitting apart, gazing at the fire. He said nothing. It was silence amidst the screaming.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Suivant",
+          "prochaineSceneId": "scene_16"
+        }
+      ]
+    },
+    "scene_16": {
+      "id": "scene_16",
+      "image": "assets/images/pixel-art-gnrl/NoImage.gif",
+      "texte": "Today, the band moves forward. They are not heroes. They are mercenaries. And their adventure is a daily struggle to stay together.",
+      "audio": "assets/audio/SoleilEcarlate.ogg",
+      "choix": [
+        {
+          "texte": "Act 2",
+          "prochaineSceneId": ""
+        }
+      ]
+    }
+  }
+}
